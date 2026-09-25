@@ -1,0 +1,62 @@
+{
+  "House": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  },
+  "Log Cabin": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  },
+  "Stone Cabin": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  },
+  "Plank Cabin": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  },
+  "Beach Cabin": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  },
+  "Neighbor Cabin": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  },
+  "Rustic Cabin": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  },
+  "Trailer Cabin": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  },
+  "Stable": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  },
+  "Big Shed": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  },
+  "Deluxe Coop": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  },
+  "Deluxe Barn": {
+    "0": "Gebouw",
+    "2": "Dak",
+    "4": "Afwerking"
+  }
+}

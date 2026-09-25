@@ -1,0 +1,8 @@
+{
+  "LanguageCode": "nl",
+  "UseLatinFont": true,
+  "NumberComma": ".",
+  "TimeFormat": "[HOURS_24_00]:[MINUTES]",
+  "ClockTimeFormat": "[HOURS_24_00]:[MINUTES]",
+  "ClockDateFormat": "[DAY_OF_WEEK] [DAY_OF_MONTH]"
+}

@@ -1,0 +1,95 @@
+{
+  "Pantry/0": {
+    "6": "Lentegewassenbundel"
+  },
+  "Pantry/1": {
+    "6": "Zomergewassenbundel"
+  },
+  "Pantry/2": {
+    "6": "Herfstgewassenbundel"
+  },
+  "Pantry/3": {
+    "6": "Kwaliteitsgewassenbundel"
+  },
+  "Pantry/4": {
+    "6": "Dierenbundel"
+  },
+  "Pantry/5": {
+    "6": "Handwerkersbundel"
+  },
+  "Crafts Room/13": {
+    "6": "Verzamelen (Lente)"
+  },
+  "Crafts Room/14": {
+    "6": "Verzamelen (Zomer)"
+  },
+  "Crafts Room/15": {
+    "6": "Verzamelen (Herfst)"
+  },
+  "Crafts Room/16": {
+    "6": "Verzamelen (Winter)"
+  },
+  "Crafts Room/17": {
+    "6": "Constructiebundel"
+  },
+  "Crafts Room/19": {
+    "6": "Verzamelen (Exotisch)"
+  },
+  "Fish Tank/6": {
+    "6": "Riviervisbundel"
+  },
+  "Fish Tank/7": {
+    "6": "Meervisbundel"
+  },
+  "Fish Tank/8": {
+    "6": "Oceaanvisbundel"
+  },
+  "Fish Tank/9": {
+    "6": "Nachtvisbundel"
+  },
+  "Fish Tank/10": {
+    "6": "Specialiteitsvisbundel"
+  },
+  "Fish Tank/11": {
+    "6": "Krabbenvalbundel"
+  },
+  "Boiler Room/20": {
+    "6": "Smidsbundel"
+  },
+  "Boiler Room/21": {
+    "6": "Geoloogbundel"
+  },
+  "Boiler Room/22": {
+    "6": "Avonturiersbundel"
+  },
+  "Vault/23": {
+    "6": "2.500g"
+  },
+  "Vault/24": {
+    "6": "5.000g"
+  },
+  "Vault/25": {
+    "6": "10.000g"
+  },
+  "Vault/26": {
+    "6": "25.000g"
+  },
+  "Bulletin Board/31": {
+    "6": "Koksbundel"
+  },
+  "Bulletin Board/32": {
+    "6": "Veldonderzoekbundel"
+  },
+  "Bulletin Board/33": {
+    "6": "Tovenaarsbundel"
+  },
+  "Bulletin Board/34": {
+    "6": "Kleurstofbundel"
+  },
+  "Bulletin Board/35": {
+    "6": "Veevoerbundel"
+  },
+  "Abandoned Joja Mart/36": {
+    "6": "De ontbrekende bundel"
+  }
+}

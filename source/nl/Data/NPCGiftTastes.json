@@ -1,0 +1,240 @@
+{
+  "Robin": {
+    "0": "Voor mij? Wauw, geweldig!",
+    "2": "Dank je! Dat is heel aardig!",
+    "4": "Uh... waarom?",
+    "6": "Wat? Dit is vreselijk!",
+    "8": "Dank je. Dit komt misschien van pas."
+  },
+  "Demetrius": {
+    "0": "Voor mij? Dit is geweldig!",
+    "2": "Dank je! Dit is een zeer interessant exemplaar.",
+    "4": "...Wat is dit?",
+    "6": "Dit is vreselijk.",
+    "8": "Dat is heel aardig van je."
+  },
+  "Maru": {
+    "0": "Is dat...? Oh wauw, @! Dit is geweldig!",
+    "2": "Dit is een mooi cadeau! Dank je!",
+    "4": "Oh... voor mij? Ik zet het hier wel even neer...",
+    "6": "Bah! Dacht je dat ik dit leuk zou vinden?",
+    "8": "Dank je."
+  },
+  "Sebastian": {
+    "0": "Hier ben ik gek op. Hoe wist je dat?",
+    "2": "Dank je. Hier hou ik van.",
+    "4": "...?",
+    "6": "...Hier heb ik een hekel aan.",
+    "8": "...Dank je."
+  },
+  "Linus": {
+    "0": "Dit is geweldig! Hier word ik echt blij van.",
+    "2": "Dit is een mooi cadeau. Dank je!",
+    "4": "Hmm... hier ben ik niet zo gek op.",
+    "6": "Waarom geef je me dit? Denk je dat ik van troep hou omdat ik in een tent woon? Wat vreselijk.",
+    "8": "Een cadeau? Wat aardig."
+  },
+  "Pierre": {
+    "0": "Hier ben ik dol op! Dank je!",
+    "2": "Dat is heel aardig van je. Dank je.",
+    "4": "Hier hou ik niet echt van...",
+    "6": "Geef me dit alsjeblieft nooit meer.",
+    "8": "Een cadeau? Dank je!"
+  },
+  "Caroline": {
+    "0": "Oh, @... Je verwent me teveel! Het is geweldig!",
+    "2": "Voor mij? Dit is zo'n passend cadeau! Dankjewel!",
+    "4": "Oh... Ok'e. Ik, uh... zal het goed gebruiken...",
+    "6": "Uhm... Dit zou ik als compost kunnen gebruiken...",
+    "8": "Oh, dat is lief. Dank je."
+  },
+  "Abigail": {
+    "0": "Hier ben ik echt gek op! Dank je wel, @!",
+    "2": "Hé, hoe wist je dat ik honger had? Dit ziet er heerlijk uit!",
+    "4": "Wat moet ik hiermee?",
+    "6": "Wat denk je wel niet? Dit is vreselijk!",
+    "8": "Heb je me een cadeau gebracht? Dank je wel."
+  },
+  "Alex": {
+    "0": "Hé, gaaf! Hier ben ik gek op!",
+    "2": "Dit is cool! Bedankt.",
+    "4": "Uh... oké. Dank je.",
+    "6": "Serieus? Dit is troep.",
+    "8": "Dank je!"
+  },
+  "George": {
+    "0": "Hier ben ik dol op! Dank je wel.",
+    "2": "Dank je.",
+    "4": "Wat een vreselijk cadeau.",
+    "6": "Dit is misschien wel het slechtste cadeau dat ik ooit heb gezien. Hartelijk bedankt.",
+    "8": "Een cadeau? Hmm...#$e#Wil je er iets voor terug hebben?"
+  },
+  "Evelyn": {
+    "0": "Oh! Dit is geweldig!$u#$e#Hier maak je een oude vrouw heel blij mee.",
+    "2": "Dat ziet er mooi uit! Wat aardig van je.",
+    "4": "Uh... waar zal ik dit neerzetten?",
+    "6": "...Dit ruikt vreselijk.",
+    "8": "Wat mooi. Dank je, lieverd."
+  },
+  "Lewis": {
+    "0": "Wauw, hier ben ik gek op! Dank je!",
+    "2": "Dank je, dit is heel mooi!",
+    "4": "Het is het idee dat telt...",
+    "6": "Dit is misselijkmakend. Wat een slecht cadeau.",
+    "8": "Dat is heel aardig van je. Dank je."
+  },
+  "Clint": {
+    "0": "Dit is precies waar ik naar op zoek was!",
+    "2": "Dit is een mooi cadeau. Dank je!",
+    "4": "*zucht*...",
+    "6": "Dit is deprimerend.",
+    "8": "Bedankt."
+  },
+  "Penny": {
+    "0": "Dank je! Hier ben ik dol op!",
+    "2": "Dank je! Dit ziet er bijzonder uit.",
+    "4": "Uh, voor mij? ...Dank je.",
+    "6": "...Het spijt me, maar dit vind ik helemaal niks.",
+    "8": "Dank je. Dit ziet er mooi uit."
+  },
+  "Pam": {
+    "0": "Hé, dat is nog eens een cadeau! Ontzettend bedankt!",
+    "2": "Hier ben ik blij mee. Dank je!",
+    "4": "Dit is niet echt iets voor mij.",
+    "6": "Dit is echt afschuwelijk.$u#$e#(Is dit soms een gemene grap?)",
+    "8": "Hé, dank je."
+  },
+  "Emily": {
+    "0": "Dit is een prachtig cadeau! Ontzettend bedankt!",
+    "2": "Dank je! Ik voel een positieve energie van dit cadeau.",
+    "4": "Sorry, @. Hier hou ik niet van.",
+    "6": "Dit cadeau heeft een sterke negative energie. Ik kan het niet uitstaan.",
+    "8": "Dank je!"
+  },
+  "Haley": {
+    "0": "Wauw! Dit is mijn lievelingsding!",
+    "2": "Wauw... voor mij? Dank je!",
+    "4": "Ugh... wat een stom cadeau.",
+    "6": "Bah!",
+    "8": "Dank je. Ik ben dol op cadeaus."
+  },
+  "Jas": {
+    "0": "Oh, wauw! Dank je!$h",
+    "2": "Ik ben dol op cadeautjes! Dank je!",
+    "4": "Is dat een cadeau? Oh...$s",
+    "6": "...Bah. Dit is vies.$s",
+    "8": "Dank je!"
+  },
+  "Vincent": {
+    "0": "Wauw, heel erg bedankt! Dit is gaaf!",
+    "2": "Voor mij? Wauw, dank je!",
+    "4": "Dit is niet erg leuk...$s",
+    "6": "Bah, wat is dat?$s",
+    "8": "Dank je!"
+  },
+  "Jodi": {
+    "0": "Oh, je bent een schat! Hier ben ik dol op!",
+    "2": "Dank je! Dit fleurt mijn dag op.",
+    "4": "Hmm... misschien dat ik het bij de compost kan doen...",
+    "6": "Bah! Hier heb ik een hekel aan...",
+    "8": "Dat is heel aardig van je! Dank je."
+  },
+  "Kent": {
+    "0": "Oh...! Mam gaf me dit vroeger toen ik nog klein was. Dit roept mooie herinneringen op. Dank je.",
+    "2": "Hé, dit is een mooi cadeau. Dank je.",
+    "4": "Ah, een... wat is dit precies? Hmm...",
+    "6": "Dit... is wat ze me gaven in het Gotoro-krijgsgevangenenkamp. Ik wilde hier nooit meer aan denken. *huiver*",
+    "8": "Dat is aardig van je. Daar zal het gezin blij mee zijn."
+  },
+  "Sam": {
+    "0": "Yes! Dit heb ik het liefst!",
+    "2": "Dank je! Dit is super.",
+    "4": "Hmm... Dat is... interessant.",
+    "6": "Jij snapt het echt niet, hè?",
+    "8": "Voor mij? Dank je!"
+  },
+  "Leah": {
+    "0": "Oh! Dit is precies wat ik wilde! Dank je!",
+    "2": "Dit is een heel mooi cadeau! Dank je!",
+    "4": "Hmm... ieder zijn eigen smaak.",
+    "6": "Nogal een waardeloos cadeau, vind je niet?",
+    "8": "Dank je."
+  },
+  "Shane": {
+    "0": "Oh wauw, @! Hoe wist je dat ik hier gek ik op ben?",
+    "2": "Dit is geweldig! Dank je!",
+    "4": "Hier hou ik niet zo van.",
+    "6": "Waarom geef je me troep?",
+    "8": "Oh, heb je me iets meegebracht? Dank je!"
+  },
+  "Marnie": {
+    "0": "Dit is een geweldig cadeau! Dank je!",
+    "2": "Dank je!",
+    "4": "Oh. Goed, ik neem het wel aan.",
+    "6": "Dit is waardeloos. Ik snap je niet.",
+    "8": "Dank je! Dit ziet er mooi uit."
+  },
+  "Elliott": {
+    "0": "@, dit is een prachtig geschenk! Dank je!",
+    "2": "Is dit voor mij? Schitterend!",
+    "4": "Hmm... hier ben ik niet zo'n liefhebber van.",
+    "6": "Dit geeft me een slecht gevoel. Ik zal het moeten weggooien.",
+    "8": "Oh, een cadeau! Dank je!"
+  },
+  "Gus": {
+    "0": "Hé, dit is fantastisch! Ontzettend bedankt!",
+    "2": "Weet je het zeker? Bedankt!",
+    "4": "Oh. Nee, dank je...",
+    "6": "Wat moet ik hier in hemelsnaam mee?",
+    "8": "Dat is vriendelijk van je. Dank je."
+  },
+  "Dwarf": {
+    "0": "Hé, hier ben ik dol op. Je kan geweldige dingen in de mijnen vinden.",
+    "2": "Ah, dit doet me aan thuis denken.",
+    "4": "Hmm... is dit waar mensen van houden?",
+    "6": "Tot welke soort je ook behoort, dit is gewoon troep.",
+    "8": "Een offer! Dank je."
+  },
+  "Wizard": {
+    "0": "Ah, dit bevat krachtige magische energie. Dit is erg nuttig voor mijn onderzoek. Dank je!",
+    "2": "Duizendmaal dank. Dit voorwerp heeft zeer interessante eigenschappen.",
+    "4": "Dit...? Ik zal eens kijken wat er gebeurt als ik het in de vlammen gooi.",
+    "6": "Zucht... dit is volkomen alledaags. Val me hier niet meer mee lastig in de toekomst.",
+    "8": "Dank je. Dit kan van pas komen, denk ik."
+  },
+  "Harvey": {
+    "0": "Is dit voor mij? Dit heb ik het liefst! Alsof je mijn gedachten hebt gelezen.",
+    "2": "Wat een mooi cadeau. Dank je!",
+    "4": "Hmm... weet je zeker dat dit gezond is?",
+    "6": "...Volgens mij ben ik hier allergisch voor.",
+    "8": "Dank je. Dat is erg aardig van je."
+  },
+  "Sandy": {
+    "0": "Oh! Ik ben gek op bloemen uit de vallei. Ik ben hier zo blij mee!~",
+    "2": "Dit ziet er prachtig uit. Dank je wel!",
+    "4": "Oh... Uh... dank je.",
+    "6": "Wat moet dat voorstellen?",
+    "8": "Voor mij? Dank je!"
+  },
+  "Willy": {
+    "0": "Dit is geweldig! Was mijn oude pa er nog maar. Hij zou dit prachtig vinden.",
+    "2": "Dit ziet er geweldig uit. Dank je!",
+    "4": "Hmmm... hou jij hiervan?.",
+    "6": "... *snif snif*... Dit kan zo in de asbak...",
+    "8": "Een cadeau! Dank je."
+  },
+  "Krobus": {
+    "0": "Dit is een fantastisch geschenk. Voor mijn volk is het een grote eer om zoiets te ontvangen.",
+    "2": "Hartelijk bedankt.",
+    "4": "Mensen hebben een... interessante smaak.",
+    "6": "Oh... Uh... ik zal het wel aannemen.",
+    "8": "Dank je."
+  },
+  "Leo": {
+    "0": "Dit is geweldig. Ik leg het in mijn nest.",
+    "2": "Weet je het zeker? Dit is zo mooi...",
+    "4": "Oh... ik weet niet of ik dit kan verteren...",
+    "6": "*snuif* *snuif*... waarom geef je me dit? Wil je dat ik het voor je begraaf?",
+    "8": "Ik neem je cadeau aan."
+  }
+}

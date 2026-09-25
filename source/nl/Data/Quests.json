@@ -1,0 +1,361 @@
+{
+  "1": {
+    "1": "Ontmoet de Tovenaar",
+    "2": "Je hebt een brief van de lokale tovenaar gekregen. Hij zegt informatie te hebben over het oude buurthuis.",
+    "3": "Betreed de tovenaarstoren."
+  },
+  "2": {
+    "1": "De Mysterieuze Qi",
+    "2": "Je hebt een briefje met vreemde instructies gevonden in een verborgen kluisje. Het is ondertekend door een zekere Mr. Qi.",
+    "3": "Leg een regenboogschelp in de doos op het perron."
+  },
+  "3": {
+    "1": "De Mysterieuze Qi",
+    "2": "Je hebt nog een briefje van 'Mr. Qi' gevonden. Het verzoek is ditmaal nog ongebruikelijker.",
+    "3": "Leg 10 bieten in de koelkast van burgemeester Lewis."
+  },
+  "4": {
+    "1": "De Mysterieuze Qi",
+    "2": "Je hebt nog een vreemd briefje in de koelkast van de burgemeester gevonden. Ditmaal zijn de instructies cryptischer.",
+    "3": "\"Breng de zanddraak zijn laatste maal.\n\""
+  },
+  "5": {
+    "1": "De Mysterieuze Qi",
+    "2": "Je hebt nog een briefje in de oogkas van de draak gevonden. Het lijkt erop dat de speurtotcht van Mr. Qi ten einde loopt.",
+    "3": "Bekijk de houtstapel naast je huis."
+  },
+  "6": {
+    "1": "Eerste Stappen",
+    "2": "Als je boer wil worden, dan moet je bij het begin beginnen. Gebruik je schoffel om het veld te bewerken en gebruik dan een pak zaadjes op de aarde om een gewas te planten. Geef het elke dag water tot de plant klaar is om geoogst te worden.",
+    "3": "Verbouw en oogst een pastinaak."
+  },
+  "7": {
+    "1": "Dieren Houden",
+    "2": "Robin, de lokale timmervrouw, woont ten noorden van het dorp. In ruil voor materiaal en geld zal ze nieuwe gebouwen voor je maken op de boerderij. Met haar hulp kun je een kippenhok of stal bouwen zodat je dieren kunt grootbrengen.",
+    "3": "Bouw een kippenhok."
+  },
+  "8": {
+    "1": "Vooruitgang",
+    "2": "Naarmate je ervaring opdoet, zul je nieuwe blauwdrukken ontdekken die je inkomen verhogen en je leven makkelijker maken. Een vogelverschrikker zorgt er bijvoorbeeld voor dat kraaien niet met je kostbare gewassen aan de haal gaan.",
+    "3": "Bereik niveau 1 in landbouw en maak een vogelverschrikker."
+  },
+  "9": {
+    "1": "Kennismaking",
+    "2": "Het zou een mooi gebaar zijn om je aan iedereen in het dorp voor te stellen. Sommige mensen staan misschien te popelen om de nieuwe boer te ontmoeten.",
+    "3": "."
+  },
+  "10": {
+    "1": "Kopererts",
+    "2": "Je hebt een stuk kopererts gevonden. Je weet niet zeker waar het voor is, maar de lokale smid weet het vast wel.",
+    "3": "Breng een stuk kopererts naar de winkel van smid Clint."
+  },
+  "11": {
+    "1": "Aan de Weg Smeden",
+    "2": "Als je ertsen blijft delven, is het een goed idee om een smeltoven te bouwen.",
+    "3": "Maak een smeltoven."
+  },
+  "12": {
+    "1": "Smelten",
+    "2": "Nu je een smeltoven hebt gemaakt kun je metaal smelten. Volgens Clints aanwijzingen zou je 5 kopererts en 1 steenkool in de smeltoven moeten plaatsen om een koperstaaf te maken.",
+    "3": "Gebruik de smeltoven om een koperstaaf te smelten."
+  },
+  "13": {
+    "1": "Naar het Strand",
+    "2": "Een zekere Willy heeft je gevraagd om naar het strand ten zuiden van het dorp te komen. Hij zegt dat hij je iets wil geven.",
+    "3": "Bezoek het strand ten zuiden van het dorp voor 17:00 uur."
+  },
+  "14": {
+    "1": "De Mijnen Verkennen",
+    "2": "Er ligt een oude mijnschacht ten noorden van het dorp. Er kunnen zich veel kostbare mineralen in bevinden, maar Marlon liet doorschemeren dat het er gevaarlijk kon zijn.",
+    "3": "Bereik niveau 5 in de mijnen."
+  },
+  "15": {
+    "1": "Inwijding",
+    "2": "Als je 10 slijmen weet te doden, heb je een plek in het avonturiersgilde verdiend.",
+    "3": "0 van 10 slijmen gedood."
+  },
+  "16": {
+    "1": "Inwijding",
+    "2": "Je hebt 10 slijmen weten te verslaan. Nu kun je lid worden van het avonturiersgilde.",
+    "3": "Word lid van het avonturiersgilde."
+  },
+  "17": {
+    "1": "Dieper de Mijnen In",
+    "2": "Het lijkt erop dat de mijnlift het nog doet. Hiermee kun je snel terugkeren naar alle liftdeuren die je hebt ontdekt. Een diepere expeditie is wellicht aan te raden.",
+    "3": "Bereik niveau 40 in de mijnen."
+  },
+  "18": {
+    "1": "Naar de Bodem?",
+    "2": "De bodem is nog steeds niet in zicht. Hoe diep is deze mijn?",
+    "3": "Bereik de bodem van de mijnen."
+  },
+  "19": {
+    "1": "De Schedelsleutel",
+    "2": "Je hebt een vreemde sleutel gevonden op de bodem van de mijnen.",
+    "3": "Ontdek waar de schedelsleutel toe dient."
+  },
+  "20": {
+    "1": "Qis Uitdaging",
+    "2": "Je bent uitgedaagd om niveau 25 van de schedelgrot te bereiken. Er is je een fikse beloning beloofd als het je lukt.",
+    "3": "Bereik niveau 25 in de schedelgrot."
+  },
+  "21": {
+    "1": "Marnies Verzoekje",
+    "2": "Marnie kwam langs om te vragen of je haar een grotwortel kon brengen. Ze probeert haar geiten op commando te leren spreken en grotwortels zijn hun favoriete tussendoortje.",
+    "3": "Breng een grotwortel naar de winkel van Marnie."
+  },
+  "22": {
+    "1": "Visschotel",
+    "2": "Jodi kwam langs om te vragen of je om 19:00 uur met hen mee wilde eten. Ze vroeg of je een forelbaars voor haar ovenschotel wilde meenemen.",
+    "3": "Ga om 19:00 uur het huis van Jodi binnen met een forelbaars."
+  },
+  "23": {
+    "1": "Archeologie",
+    "2": "Je hebt een eeuwenoud uitziend voorwerp gevonden. Zou het een artefact van lang geleden kunnen zijn? Misschien kan Gunther, de beheerder van het plaatselijke museum, hier antwoord op geven.",
+    "3": "Bezoek Gunther in het museum."
+  },
+  "24": {
+    "1": "Archeologie",
+    "2": "Gunther heeft je gevraagd om artefacten en mineralen die je tegenkomt aan het museum te schenken. Hij zegt dat hij je van tijd tot tijd zal belonen met zeldzame spullen.",
+    "3": "Schenk een artefact of mineraal aan het museum."
+  },
+  "25": {
+    "1": "Hoe Vrienden te Winnen",
+    "2": "Cadeaus geven is een uitstekende manier om vriendschap op te bouwen. Leer ieders individuele smaak kennen en je zult binnen de kortste keren populair zijn.",
+    "3": "Geef iemand een cadeau."
+  },
+  "26": {
+    "1": "\"Rattenprobleem\"",
+    "2": "Er is iets vreemds aan de hand in het buurthuis...",
+    "3": "Onderzoek het buurthuis."
+  },
+  "27": {
+    "1": "Aardmannenprobleem",
+    "2": "Een aardman verspert de weg naar de heksenhut. Er moet een manier zijn om hem uit de weg te krijgen... Misschien moet ik meer informatie over aardmannen zoeken.",
+    "3": "Verkrijg toegang tot de heksenhut."
+  },
+  "28": {
+    "1": "Duistere Talisman",
+    "2": "De tovenaar heeft me gevraagd de magische inkt uit het huis van zijn ex-vrouw terug te halen... maar om daar binnen te komen heb ik een duistere talisman nodig.",
+    "3": "Betreed het riool en vraag Krobus naar de duistere talisman."
+  },
+  "29": {
+    "1": "Vreemde Brief",
+    "2": "Je hebt een bijna onleesbare brief gevonden waarin je wordt gevraagd om \"ah-hoorn sierroop\" naar het \"geehijme bos\" te brengen.",
+    "3": "Breng \"ah-hoorn sierroop\" naar het \"geehijme bos\"."
+  },
+  "30": {
+    "1": "Geheimzinnige Brief",
+    "2": "Je hebt een brief gevonden waarin staat: \"Iemand wacht op je op niveau 100 van de schedelgrot\".",
+    "3": "Bereik niveau 100 van de schedelgrot."
+  },
+  "31": {
+    "1": "Een Wintermysterie",
+    "2": "Je bent een verdacht figuur tegen het lijf gelopen bij de bushalte. Hij vluchtte richting het dorp toen hij je zag. Zou er een aanwijzing kunnen zijn waar hij zich verstopt?",
+    "3": "Vind het schaduwachtige figuur."
+  },
+  "100": {
+    "1": "Robins Verloren Bijl",
+    "2": "Robin is haar lievelingsbijl kwijt. De laatste keer dat ze hem heeft gebruikt was toen ze hout hakte ten zuiden van Marnies veeboerderij.",
+    "3": "Vind Robins Bijl",
+    "9": "Hé, je hebt mijn bijl gevonden! Wat een opluchting... ik had bijna mijn teen afgehakt met de andere. Dank je!"
+  },
+  "101": {
+    "1": "Jodis Verzoekje",
+    "2": "Jodi heeft een verse bloemkool nodig voor een recept. Ze vroeg of jij er een wilde brengen.",
+    "3": "Breng Jodi een bloemkool.",
+    "9": "Oh, die ziet er heerlijk uit! Dank je. Dit is precies wat ik nodig had voor mijn gele curry."
+  },
+  "102": {
+    "1": "De \"Korte Broek\"",
+    "2": "Burgemeester Lewis is zijn paarse \"korte broek\" kwijt. Hij heeft je gevraagd hem te vinden en terug te brengen... onopvallend.",
+    "3": "Breng de paarse korte broek van burgemeester Lewis terug.",
+    "9": "Je hebt hem gevonden! ...Waar? ...Oh... Uh... Hm...#$b#Daar? Ik zou niet weten hoe hij daar terecht is gekomen... *kuch*#$b#Dit blijft tussen ons, begrepen?$u"
+  },
+  "103": {
+    "1": "Pam Heeft Dorst",
+    "2": "Pam heeft zin in licht bier. Gewoon bier is niet goed genoeg. Je kunt het zelf brouwen als je hop en een vat hebt.",
+    "3": "Breng Pam een licht bier.",
+    "9": "Hier daarmee. *slurp* Ahh, heerlijk.#$b#Lekker hoppig, met een vleugje citroen en een stevige afdronk.#$b#Dank je. Ik wist dat ik op je kon rekenen.$h"
+  },
+  "104": {
+    "1": "Gewasonderzoek",
+    "2": "Demetrius heeft een verse meloen nodig voor zijn onderzoek.",
+    "3": "Breng Demetrius een meloen.",
+    "9": "Perfect! Precies wat ik nodig had voor mijn onderzoek. Het zal moeilijk worden hem niet op te eten! Heel erg bedankt."
+  },
+  "105": {
+    "1": "Knietherapie",
+    "2": "George heeft een chilipeper nodig om de pijn in zijn knie te verlichten.",
+    "3": "Breng George een chilipeper.",
+    "9": "Dat heeft lang genoeg geduurd... hmmpf. Hij is tenminste wel goed heet. Dank je."
+  },
+  "106": {
+    "1": "Koeienkeuken",
+    "2": "Marnie wil haar koeien iets lekkers geven. Ze is op zoek naar een bosje amarant.",
+    "3": "Breng Marnie een bos amarant.",
+    "9": "Oh, de amarant waar ik om vroeg! Dank je wel. Mijn koeien zullen er van smullen!$h"
+  },
+  "107": {
+    "1": "Bessenmand",
+    "2": "Het is braambessenseizoen, maar Linus is zijn mandje kwijt! Hij heeft je gevraagd te helpen zoeken, maar hij heeft geen idee waar de mand kan zijn.",
+    "3": "Breng de mand van Linus terug.",
+    "9": "Mijn mandje! Dank je. Dat betekent veel voor me.$h"
+  },
+  "108": {
+    "1": "Pompoenkerven",
+    "2": "Caroline wil met haar dochter een pompoen kerven. Ze heeft je gevraagd haar een pompoen van je boerderij te brengen.",
+    "3": "Breng Caroline een pompoen.",
+    "9": "Oh, de pompoen! Dat is een mooie... Abigail zal zo blij zijn als ze hem ziet. Dank je, @!$h"
+  },
+  "109": {
+    "1": "Vang een Inktvis",
+    "2": "Willy daagt je uit om een inktvis te vangen. Hij zegt dat je ze kan vangen in de oceaan op winteravonden.",
+    "3": "Breng Willy een inktvis.",
+    "9": "Hé, het is je gelukt! Niet slecht. Helemaal niet slecht. Ik ben onder de indruk.#$b#De winter is een goede tijd om te vissen, of niet?"
+  },
+  "110": {
+    "1": "Clints Poging",
+    "2": "Clint wil dat je Emily een amethist geeft. Hij wil dat je haar zegt dat hij van hem komt.",
+    "3": "Breng Emily een amethist.",
+    "9": "Oh, mijn lievelingssteen! Wat lief van je!$h#$b#Huh? Van wie?$u#$b#Oh, heb je hem bij Clint gekocht? Waar hij ook vandaan komt, hij is prachtig! Dank je! *smak*$h"
+  },
+  "111": {
+    "1": "Een Donkere Stof",
+    "2": "De tovenaar wil dat je in de mijnen afdaalt om voor hem een schaduwessentie te vinden. Hij heeft hem nodig voor duistere magie.",
+    "3": "Breng de tovenaar een schaduwessentie.",
+    "9": "Ah, je hebt hem meegebracht. Je hebt mijn dankbaarheid en 1000g verdiend. Ga nu."
+  },
+  "112": {
+    "1": "Een Gunst voor Clint",
+    "2": "Clint heeft een nieuwe hamer en wil hem op verschillende metalen uitproberen.",
+    "3": "Breng Clint een ijzerstaaf.",
+    "9": "Hé, de ijzerstaaf waar ik om vroeg. Hij ziet er stevig uit... perfect.#$b#Dank je, @. Ik stel het op prijs."
+  },
+  "113": {
+    "1": "Robins Verzoekje",
+    "2": "Robin heeft je om wat hardhout gevraagd.",
+    "3": "Breng Robin 10 stuks hardhout.",
+    "9": "Oh, je hebt het meegebracht! Ik wist dat ik op je kon rekenen, @.$h#$b#Mmhmm... dit hout is perfect. Het is precies wat ik nodig heb. Dank je!"
+  },
+  "114": {
+    "1": "Visstoofpot",
+    "2": "Gus wil visstoofpot maken, maar hij heeft een witte tonijn nodig.",
+    "3": "Breng Gus een witte tonijn.",
+    "9": "Hmm... wat is dat? Het ruikt hier naar witte tonijn!#$b#Ah! Je hebt hem me gebracht! Hartelijk dank!"
+  },
+  "115": {
+    "1": "Vers Fruit",
+    "2": "Emily wil de lente proeven. Ze vraagt om een verse abrikoos.",
+    "3": "Breng Emily een abrikoos.",
+    "9": "Oh... je hebt er een gevonden! Dank je. Hij ziet er heerlijk uit!$h"
+  },
+  "116": {
+    "1": "Omas Geschenk",
+    "2": "Evelyn wil haar man verrassen met een cadeau.",
+    "3": "Breng Evelyn een prei.",
+    "9": "Oh, dank je wel, lieverd. Deze prei ziet er lekker uit. George zal zo blij zijn.#$b#Hij vindt het heerlijk als ik ei met prei maak als ontbijt."
+  },
+  "117": {
+    "1": "Pierres Bericht",
+    "2": "Pierre wil \"goed geld\" betalen aan iemand die hem een bordje sashimi brengt. Blijkbaar heeft hij er ontzettend trek in.",
+    "3": "Breng Pierre sashimi.",
+    "9": "Het werd tijd! Ik had zo'n trek in deze vis dat ik al ontwenningsverschijnselen kreeg. *hap* Mmmh, heerlijk.#$b#Dank je, @.$h"
+  },
+  "118": {
+    "1": "Aquatisch Onderzoek",
+    "2": "Demetrius bestudeert de giftigheid van de lokale kogelvis. Hij wil graag dat jij hem er een brengt.",
+    "3": "Breng Demetrius een kogelvis.",
+    "9": "Ah, daar ben je. Dit exemplaar ziet er perfect uit. Ik zal hem direct invriezen. Dank je, @!"
+  },
+  "119": {
+    "1": "Soldatenster",
+    "2": "Kent wil zijn vrouw een stervrucht geven voor hun jubileum.",
+    "3": "Breng Kent een stervrucht.",
+    "9": "Hé. Psst... laat Jodi hem niet zien.#$b#Ah, hij ziet er sappig uit. Ze zal hem geweldig vinden. Ontzettend bedankt.$h"
+  },
+  "120": {
+    "1": "Burgemeesterlijke Behoefte",
+    "2": "Burgemeester Lewis wil truffelolie. Hij wil niet zeggen waarvoor. Misschien zijn dat jouw zaken ook niet.",
+    "3": "Breng Lewis een fles truffelolie.",
+    "9": "Heb je de olie? Laat me eens zien...#$b#Hm, goede kwaliteit... erg glad. Prachtig. Dank je."
+  },
+  "121": {
+    "1": "Gezocht: Kreeft",
+    "2": "Gus heeft een verzoekje geplaatst voor verse kreeft.",
+    "3": "Breng Gus een kreeft.",
+    "9": "Volgens mij ruik ik verse kreeft. Mmm, dat ruikt goed.$h#$b#Pas goed op jezelf!"
+  },
+  "122": {
+    "1": "Pam Zoekt Spanning",
+    "2": "De batterij van Pams afstandsbediening is leeg. Het valt haar zwaar om steeds van de bank te moeten opstaan om van zender te wisselen.",
+    "3": "Breng Pam een batterij.",
+    "9": "Hé, je hebt me een batterij bezorgd! Hartelijk dank... je hebt mijn leven gered!$h"
+  },
+  "123": {
+    "1": "Staf der Macht",
+    "2": "De tovenaar werkt aan een staf met onvoorstelbare kracht. Wie weet waar hij voor dient. Hij heeft een iridiumstaaf nodig om hem af te maken.",
+    "3": "Breng de tovenaar een iridiumstaaf.",
+    "9": "Ah, kostbaar iridium. Uitstekend werk, @. Je hebt mijn dank. Ga nu."
+  },
+  "124": {
+    "1": "Vang een Lingcod",
+    "2": "Willy heeft je uitgedaagd een lingcod te vangen.",
+    "3": "Breng Willy een lingcod.",
+    "9": "Aye, da's een knoeperd! Je hebt echt vissersbloed in je.$h"
+  },
+  "125": {
+    "1": "Exotische Likeur",
+    "2": "Gus wil een kokos-no-no maken, maar het hoofdingrediënt ontbreekt.",
+    "3": "Breng Gus een kokosnoot.",
+    "9": "Een kokosnoot! Wat ben ik blij om die te zien.$h#$b#Hij is perfect voor mijn kokos-no-no. Dank je!"
+  },
+  "126": {
+    "1": "Boodschap Voor Je Vrouw",
+    "2": "Je vrouw heeft je om 200 stuks vezel gevraagd voor een geheim project.",
+    "3": "Breng Emily 200 vezel.",
+    "9": "Oh, dit ziet er perfect uit... en ook nog van duurzame herkomst! Dank je wel, @.$h#$b#Ik heb een hoop werk voor de boeg. Het zal nog een paar daagjes duren voor het af is..."
+  },
+  "127": {
+    "1": "Haleys Cakewalk",
+    "2": "Je vrouw organiseert een liefdadigheids-cakewalk op het dorpsplein. Ze heeft je gevraagd een chocoladetaart mee te nemen.",
+    "3": "Ga op een zonnige ochtend naar het dorp met een chocoladetaart."
+  },
+  "128": {
+    "1": "...",
+    "2": "...",
+    "3": "...",
+    "9": "Die halsketting! Waar heb je die gevonden?$7#$b#Bedankt dat je hem teruggebracht hebt, @. Mijn moeder zal er nooit achter komen...$h"
+  },
+  "129": {
+    "1": "...",
+    "2": "...",
+    "3": "...",
+    "9": "Wat is dat? Mijn oude halsketting?$s#$b#Dat is vreemd. Ik wist niet eens dat hij weg was... Dank je dat je hem hebt teruggebracht, @.$h."
+  },
+  "130": {
+    "1": "De Piratenvrouw",
+    "2": "Een oude dame die op Gembereiland woont vraagt je om een aandenken aan haar man te vinden. Ze gaf je een aangespoelde oude foto van een soldaat in de hoop dat deze je op een of andere manier hierbij zou helpen.",
+    "3": "Vind een aandenken aan Birdies man."
+  },
+  "131": {
+    "1": "Willy Uitdaging",
+    "2": "Willy heeft je uitgedaagd om 3 zandvissen te vangen",
+    "3": "Vang 3 zandvissen"
+  },
+  "132": {
+    "1": "eerste stappen",
+    "2": "Als je boer wilt worden, moet je bij de basis beginnen. Voer je kippen elke dag door ze buiten gras te laten eten of hooi in hun voerbak te doen. Als ze volgroeid zijn, oogst dan een ei van je kippen ",
+    "3": "Harvest an egg from your chickens "
+  },
+  "133": {
+    "1": "Dieren voeren",
+    "2": "Robin, de plaatselijke timmerman, woont ten noorden van de stad. In ruil voor grondstoffen en geld bouwt ze nieuwe gebouwen op je boerderij. Als je een silo bouwt, kun je je eigen gras oogsten met een zeis en opslaan om je dieren te voeden ",
+    "3": "Build a silo "
+  },
+  "134": {
+    "1": "De reusachtige stronk",
+    "2": "De grote boom in het zuiden van mijn boerderij is omgevallen. Met 100 hardhoutsoorten zou ik van de stronk iets interessants kunnen maken...",
+    "3": "Refurbeer de reuzenstronk."
+  }
+}

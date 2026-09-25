@@ -1,0 +1,517 @@
+# Audit: classic
+
+## [E] commando's/ID's wijken af van Engels (1)
+- `Characters/Dialogue/Jodi:Thu` en {} nl {('switch', '$c .5'): 1}
+
+## [E] lege tekst (2)
+- `Data/Festivals/spring24:Alex_spouse_y2` Hey, I'm feeling pretty good about today. We'll do great during the ceremony... 
+- `Strings/UI:JunimoNote_BundleName` {0} Bundle
+
+## [E] losse { of } (kapotte ${..^..}$ of string.Format) (3)
+- `Strings/1_6_Strings:Gil_Rating_15to19` {Dat is helemaal niet slecht. Dat is ongeveer hoeveel we zoeken in het gilde van avonturie
+- `Strings/StringsFromCSFiles:FarmComputer_Intro_Farm` {Werf analyse:
+- `Strings/StringsFromCSFiles:FarmComputer_Intro_NamedLocation` {Analyse:
+
+## [E] plaatshouder-tekst (2)
+- `Strings/Objects:CalicoEgg_Description` Beschrijving.
+- `Strings/UI:Character_Name` Naam
+
+## [E] placeholder niet door het spel gevuld (2)
+- `Data/ExtraDialogue:Robin_NewConstruction_Festival` ['{1}'] in: Oké, ik zal overmorgen beginnen aan je nieuwe {1}. Op festivaldagen neem ik altijd vrij.$h
+- `Data/ExtraDialogue:Robin_NewConstruction` ['{1}'] in: Oké, ik zal morgenvroeg meteen beginnen aan je nieuwe {1}.$h
+
+## [E] tekstbestand helemaal niet vertaald (1)
+- `Strings/Tools:*` 54 teksten
+
+## [W] emoties/paginering anders dan Engels (223)
+- `Characters/Dialogue/Abigail:FlowerDance_Accept` 
+- `Characters/Dialogue/Abigail:AcceptBirthdayGift_Negative` 
+- `Characters/Dialogue/Abigail:AcceptGift_(TR)BasiliskPaw` 
+- `Characters/Dialogue/Abigail:GreenRainFinished` 
+- `Characters/Dialogue/Abigail:dating_Abigail_memory_oneyear` 
+- `Characters/Dialogue/Abigail:movieTheater` 
+- `Characters/Dialogue/Abigail:FlowerDance_Accept_Spouse` 
+- `Characters/Dialogue/Alex:AcceptGift_(O)Book_Defense` 
+- `Characters/Dialogue/Alex:AcceptGift_(O)305` 
+- `Characters/Dialogue/Alex:GreenRain` 
+- `Characters/Dialogue/Alex:dating_Alex_memory_oneday` 
+- `Characters/Dialogue/Alex:Resort_Shore` 
+- `Characters/Dialogue/Alex:Tue` 
+- `Characters/Dialogue/Alex:Fri` 
+- `Characters/Dialogue/Alex:Sat` 
+- `Characters/Dialogue/Alex:Fri4` 
+- `Characters/Dialogue/Alex:fall_Sun` 
+- `Characters/Dialogue/Alex:winter_Sun` 
+- `Characters/Dialogue/Caroline:AcceptGift_(O)16` 
+- `Characters/Dialogue/Caroline:cropMatured_815` 
+- `Characters/Dialogue/Caroline:married_Abigail` 
+- `Characters/Dialogue/Caroline:achievement_15` 
+- `Characters/Dialogue/Clint:Resort_Chair` 
+- `Characters/Dialogue/Demetrius:AcceptBirthdayGift_Positive` 
+- `Characters/Dialogue/Elliott:AcceptBirthdayGift_Positive` 
+- `Characters/Dialogue/Elliott:AcceptBirthdayGift_Negative` 
+- `Characters/Dialogue/Elliott:AcceptGift_(O)814` 
+- `Characters/Dialogue/Elliott:dating_Elliott` 
+- `Characters/Dialogue/Emily:AcceptBirthdayGift_Negative` 
+- `Characters/Dialogue/Emily:married_Haley` 
+- `Characters/Dialogue/Emily:FlowerDance_Accept_Spouse` 
+- `Characters/Dialogue/Emily:Tue4` 
+- `Characters/Dialogue/Emily:Wed8` 
+- `Characters/Dialogue/Emily:summer_Tue` 
+- `Characters/Dialogue/Evelyn:AcceptGift_(O)StardropTea` 
+- `Characters/Dialogue/Haley:AcceptBirthdayGift_Liked` 
+- `Characters/Dialogue/Haley:AcceptBirthdayGift_Negative` 
+- `Characters/Dialogue/Haley:eventSeen_14` 
+- `Characters/Dialogue/Haley:eventSeen_12_memory_oneweek` 
+- `Characters/Dialogue/Haley:married_Emily` 
+- `Characters/Dialogue/Harvey:AcceptBirthdayGift_Positive` 
+- `Characters/Dialogue/Jas:AcceptBirthdayGift_Positive` 
+- `Characters/Dialogue/Jas:AcceptBirthdayGift_Negative` 
+- `Characters/Dialogue/Jas:AcceptGift_(O)103` 
+- `Characters/Dialogue/Jas:AcceptGift_Negative_alcohol_item` 
+- `Characters/Dialogue/Jodi:dating_Sam_memory_oneday` 
+- `Characters/Dialogue/Jodi:eventSeen_3910975` 
+- `Characters/Dialogue/Jodi:Thu` 
+- `Characters/Dialogue/Kent:married_Sam` 
+- `Characters/Dialogue/Kent:Tue6` 
+- `Characters/Dialogue/Krobus:SpouseStardrop` 
+- `Characters/Dialogue/Krobus:AcceptBirthdayGift_Positive` 
+- `Characters/Dialogue/Krobus:Sat4` 
+- `Characters/Dialogue/Leah:AcceptGift_(O)430` 
+- `Characters/Dialogue/Leah:AcceptGift_(O)200` 
+- `Characters/Dialogue/Leah:AcceptGift_(O)196` 
+- `Characters/Dialogue/Leah:FlowerDance_Accept_Spouse` 
+- `Characters/Dialogue/Leah:GreenRainFinished` 
+- `Characters/Dialogue/Leah:Wed8` 
+- `Characters/Dialogue/Leah:Sun8` 
+- `Characters/Dialogue/Lewis:Resort` 
+- `Characters/Dialogue/Lewis:married` 
+- `Characters/Dialogue/Linus:AcceptGift_(O)Book_Trash` 
+- `Characters/Dialogue/Linus:AcceptGift_Positive_category_fish` 
+- `Characters/Dialogue/Linus:DumpsterDiveComment` 
+- `Characters/Dialogue/Marnie:AcceptGift_(O)SkillBook_0` 
+- `Characters/Dialogue/Marnie:structureBuilt_Stable` 
+- `Characters/Dialogue/MarriageDialogue:Bad_2` 
+- `Characters/Dialogue/MarriageDialogueHaley:Outdoor_Haley` 
+- `Characters/Dialogue/MarriageDialogueHarvey:Good_2` 
+- `Characters/Dialogue/MarriageDialogueKrobus:Neutral_0` 
+- `Characters/Dialogue/MarriageDialogueLeah:Bad_2` 
+- `Characters/Dialogue/Maru:AcceptBirthdayGift_Positive` 
+- `Characters/Dialogue/Maru:AcceptGift_(O)336` 
+- `Characters/Dialogue/Maru:summer_Wed4` 
+- `Characters/Dialogue/Pam:GreenRainFinished` 
+- `Characters/Dialogue/Pam:divorced_Penny` 
+- `Characters/Dialogue/Penny:AcceptBirthdayGift_Positive` 
+- `Characters/Dialogue/Penny:eventSeen_36_memory_oneweek` 
+- `Characters/Dialogue/Penny:dating_Maru_memory_oneday` 
+- `Characters/Dialogue/Penny:FlowerDance_Decline` 
+- `Characters/Dialogue/Penny:Tue4` 
+- `Characters/Dialogue/Pierre:AcceptGift_(O)Book_PriceCatalogue` 
+- `Characters/Dialogue/Pierre:eventSeen_4` 
+- `Characters/Dialogue/Pierre:eventSeen_3102768_memory_oneweek` 
+- `Characters/Dialogue/Pierre:summer_Wed` 
+- `Characters/Dialogue/Pierre:summer_Wed2` 
+- `Characters/Dialogue/Robin:AcceptGift_(O)SkillBook_2` 
+- `Characters/Dialogue/Robin:married_Sebastian` 
+- `Characters/Dialogue/Robin:structureBuilt_Slime Hutch` 
+- `Characters/Dialogue/Sam:AcceptGift_(O)206` 
+- `Characters/Dialogue/Sam:AcceptBirthdayGift_Positive` 
+- `Characters/Dialogue/Sam:dating_Sam` 
+- `Characters/Dialogue/Sam:married_Abigail` 
+- `Characters/Dialogue/Sam:FlowerDance_Accept_Spouse` 
+- `Characters/Dialogue/Sebastian:AcceptBirthdayGift_Positive` 
+- `Characters/Dialogue/Sebastian:AcceptGift_(O)575` 
+- `Characters/Dialogue/Sebastian:AcceptGift_(TR)FrogEgg` 
+- `Characters/Dialogue/Sebastian:summer_Tue4` 
+- `Characters/Dialogue/Shane:Thu6` 
+- `Characters/Dialogue/Shane:Fri8` 
+- `Characters/Dialogue/Vincent:AcceptBirthdayGift_Positive` 
+- `Characters/Dialogue/Vincent:AcceptGift_(TR)FrogEgg` 
+- `Characters/Dialogue/Willy:AcceptGift_(O)Book_Crabbing` 
+- `Characters/Dialogue/Willy:AcceptGift_(O)SkillBook_1` 
+- `Characters/Dialogue/Willy:AcceptGift_(O)336` 
+- `Characters/Dialogue/Willy:fishCaught_682` 
+- `Characters/Dialogue/Willy:Fair_Judged` 
+- `Characters/Dialogue/Wizard:AcceptGift_(O)StardropTea` 
+- `Characters/Dialogue/rainy:Harvey` 
+- `Data/EngagementDialogue:Leah0` 
+- `Data/Events/Beach:43/f Elliott 2500/w sunny/t 700 1300/G !IS_PASSIVE_FESTIVAL_TODAY SquidFest` 
+- `Data/Events/Farm:3912125/f Elliott 3500/O Elliott/t 500 1500/p Elliott/U 8` 
+- `Data/Events/Railroad:528052/f Harvey 2500/t 900 1700/n harveyBalloon` 
+- `Data/Events/Saloon:195099/f Shane 2500/f Sebastian 2500/f Sam 2500/f Harvey 2500/f Alex 2500/f Elliott 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 911526/e 528052/e 9581348/e 43/e 384882/e 233104/i 446/k 195013` 
+- `Data/Events/Town:101/f Clint 1500/e 97/k 2123243/k 2123343/o Emily/t 900 1830/a 0 90/!D Emily` 
+- `Data/Events/Town:itsagift` 
+- `Data/Events/Town:itsagift_pennySpouse` 
+- `Data/Events/Town:15389722/j 57` 
+- `Data/Events/Trailer:963313/n pamPotatoJuice` 
+- `Data/ExtraDialogue:PurchasedItem_1_QualityLow` 
+- `Data/ExtraDialogue:Island_leo_rescue` 
+- `Data/ExtraDialogue:SummitEvent_Outro_Lewis` 
+- `Data/ExtraDialogue:SummitEvent_Dialogue1_Morris` 
+- `Data/ExtraDialogue:SummitEvent_Dialogue1B_Spouse` 
+- `Data/Festivals/fall16:Pam_y2` 
+- `Data/Festivals/fall16:Haley_y2` 
+- `Data/Festivals/fall16:Harvey_y2` 
+- `Data/Festivals/fall16:Vincent_y2` 
+- `Data/Festivals/fall27:Leah_spouse_y2` 
+- `Data/Festivals/fall27:Sebastian_spouse_y2` 
+- `Data/Festivals/fall27:Shane_spouse_y2` 
+- `Data/Festivals/fall27:Evelyn_y2` 
+- `Data/Festivals/fall27:Willy_y2` 
+- `Data/Festivals/fall27:Vincent_y2` 
+- `Data/Festivals/fall27:Krobus_y2` 
+- `Data/Festivals/spring24:Haley_spouse_y2` 
+- `Data/Festivals/spring24:Alex_spouse_y2` 
+- `Data/Festivals/spring24:Penny_y2` 
+- `Data/Festivals/spring24:Haley_y2` 
+- `Data/Festivals/spring24:Jas_y2` 
+- `Data/Festivals/spring24:Leo_y2` 
+- `Data/Festivals/summer11:Maru_spouse_y2` 
+- `Data/Festivals/summer11:Sam_spouse_y2` 
+- `Data/Festivals/summer11:Alex_y2` 
+- `Data/Festivals/summer11:Pam_y2` 
+- `Data/Festivals/summer28:Haley` 
+- `Data/Festivals/summer28:Alex_spouse_y2` 
+- `Data/Festivals/summer28:Willy_y2` 
+- `Data/Festivals/winter25:Sebastian_spouse_y2` 
+- `Data/Festivals/winter25:Kent_y2` 
+- `Data/SecretNotes:24` 
+- `Data/SecretNotes:25` 
+- `Data/SecretNotes:27` 
+- `Data/SecretNotes:1003` 
+- `Data/SecretNotes:1007` 
+- `Data/mail:dad2` 
+- `Data/mail:pierreBackpack` 
+- `Data/mail:robinKitchenLetter` 
+- `Data/mail:fertilizers2` 
+- `Data/mail:elliottLetter6` 
+- `Data/mail:DemetriusReward` 
+- `Data/mail:willyHours` 
+- `Data/mail:pamNewChannel` 
+- `Data/mail:emilyStones` 
+- `Data/mail:GreenRainGus` 
+- `Data/mail:DesertFestival` 
+- `Data/mail:MarniePetAdoption` 
+- `Strings/1_6_Strings:DesertFestival_Sam` 
+- `Strings/1_6_Strings:MakeOver_Emily_AlreadyStyled` 
+- `Strings/1_6_Strings:MakeOver_Emily_3` 
+- `Strings/1_6_Strings:DF_Mine_Explanation` 
+- `Strings/1_6_Strings:DF_Mine_Explanation_2` 
+- `Strings/1_6_Strings:FishingDerbySign` 
+- `Strings/1_6_Strings:Jas_IceCream` 
+- `Strings/1_6_Strings:GrandpaMasteryNote` 
+- `Strings/1_6_Strings:GiantQiFruitMessage` 
+- `Strings/1_6_Strings:JojaCatalogueDescriptionTerms` 
+- `Strings/1_6_Strings:Pam_busSign_generic` 
+- `Strings/Characters:Phone_Marnie_Open_Rare` 
+- `Strings/Locations:FarmHouse_SpouseAttacked3` 
+- `Strings/Locations:Gourmand_Intro` 
+- `Strings/Locations:Gourmand_RequestIntro` 
+- `Strings/Locations:Gourmand_Request_0` 
+- `Strings/Locations:Gourmand_LastReward` 
+- `Strings/Locations:ScienceHouse_Carpenter_CommunityUpgrade2` 
+- `Strings/MovieReactions:Evelyn_dislike_DuringMovie` 
+- `Strings/MovieReactions:Abigail_spring_movie_1_BeforeMovie` 
+- `Strings/MovieReactions:Abigail_spring_movie_1_AfterMovie` 
+- `Strings/MovieReactions:Abigail_love_BeforeMovie` 
+- `Strings/MovieReactions:Caroline_like_AfterMovie` 
+- `Strings/MovieReactions:Caroline_dislike_AfterMovie` 
+- `Strings/MovieReactions:Harvey_spring_movie_1_AfterMovie` 
+- `Strings/MovieReactions:Gus_summer_movie_1_AfterMovie` 
+- `Strings/MovieReactions:Sam_summer_movie_1_DuringMovie` 
+- `Strings/MovieReactions:Vincent_love_BeforeMovie` 
+- `Strings/MovieReactions:Vincent_love_AfterMovie` 
+- `Strings/MovieReactions:Clint_like_BeforeMovie` 
+- `Strings/MovieReactions:Emily_love_AfterMovie` 
+- `Strings/MovieReactions:Maru_spring_movie_1_BeforeMovie` 
+- `Strings/MovieReactions:Maru_summer_movie_1_AfterMovie` 
+- `Strings/MovieReactions:Sebastian_love_AfterMovie` 
+- `Strings/MovieReactions:Robin_love_AfterMovie` 
+- `Strings/MovieReactions:Demetrius_spring_movie_1_DuringMovie` 
+- `Strings/MovieReactions:Marnie_love_AfterMovie` 
+- `Strings/MovieReactions:Jas_love_AfterMovie` 
+- `Strings/MovieReactions:Leah_spring_movie_1_BeforeMovie` 
+- `Strings/MovieReactions:Leah_spring_movie_1_AfterMovie` 
+- `Strings/MovieReactions:Leo_love_AfterMovie` 
+- `Strings/Notes:0` 
+- `Strings/Notes:1` 
+- `Strings/Notes:2` 
+- `Strings/Notes:3` 
+- `Strings/Notes:5` 
+- `Strings/Notes:6` 
+- `Strings/Notes:7` 
+- `Strings/Notes:8` 
+- `Strings/StringsFromCSFiles:GameLocation.cs.8214` 
+- `Strings/StringsFromCSFiles:Pipe` 
+- `Strings/StringsFromMaps:JoshHouse.1` 
+- `Strings/StringsFromMaps:SeedShop.9` 
+- `Strings/animationDescriptions:alex_lift_weights` 
+- `Strings/schedules/Haley:winter_16.001` 
+
+## [W] mogelijk afgekapt (7)
+- `Characters/Dialogue/Pierre:summer_Wed` #Ik ben zo blij dat ik een dag vrij heb.
+- `Data/Festivals/spring24:Alex_spouse_y2` 
+- `Strings/BigCraftables:AutoPetter_Description` Aait automatisch elke ochtend je dieren Moet in een stal staan
+- `Strings/BigCraftables:HeavyTapper_Description` Plaats hem op een esdoorn, eik of den en wacht
+- `Strings/BigCraftables:SlothSkeletonL_Description` Deze uitgestorven luiaard zwierf ooit door de
+- `Strings/Locations:Gourmand_Request_0` Verbouw-a voor mij... dat sappige, roze ding...
+- `Strings/Objects:CalicoEgg_Description` Beschrijving.
+
+## [W] nog Engels (257)
+- `Data/Events/BathHouse_Pool:pennyHeartbroken` move Penny 0 -2 0/faceDirection farmer 0/shake Penny 5000/globalFade/viewport -1000 -1000/
+- `Data/Events/Beach:7771191/t 2000 2500/f Krobus 3500/w sunny` moonlightJellies/-1000 -1000/farmer 0 0 2 Krobus 84 40 2/showFrame Krobus 17/addTemporaryA
+- `Data/Events/BusStop:520702/a 11 23 11 24/t 600 1600/z spring/z fall/z summer` winter_day_ambient/-1000 -1000/farmer 10 23 1 Krobus 26 23 3/viewport 24 23 clamp true/add
+- `Data/Events/DesertFestival:PlayerKilled` none/-100 -100/farmer -2000 -2000 2/pause 1000/showItemsLost/pause 200/end
+- `Data/Events/Farm:2146991/y 3/H` spring_day_ambient/8 7/farmer 64 16 2/broadcastEvent/globalFade/viewport 8 7 clamp true/pa
+- `Data/Events/IslandSouth:IslandDepart` none/-1000 -1000/farmer 15 43 2 Willy 17 45 2/playMusic none/skippable true/playSound furn
+- `Data/Festivals/fall16:conditions` Town/900 1500
+- `Data/Festivals/fall16:set-up` fallFest/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Fair/viewport -1000 -1000/lo
+- `Data/Festivals/fall27:conditions` Town/2200 2350
+- `Data/Festivals/fall27:set-up` spirits_eve/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Halloween/viewport -1000 
+- `Data/Festivals/fall27:set-up_y2` spirits_eve/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Halloween2/viewport -1000
+- `Data/Festivals/spring13:conditions` Town/900 1400
+- `Data/Festivals/spring13:set-up` fallFest/27 60/farmer 12 54 1/changeToTemporaryMap Town-EggFestival/viewport -1000 -1000/l
+- `Data/Festivals/spring24:conditions` Forest/900 1400
+- `Data/Festivals/spring24:set-up` event1/22 22/farmer 76 17 1/changeToTemporaryMap Forest-FlowerFestival/viewport -1000 -100
+- `Data/Festivals/spring24:Sebastian` Ugh...
+- `Data/Festivals/summer11:conditions` Beach/900 1400
+- `Data/Festivals/summer11:set-up` event2/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Luau/viewport -1000 -1000/load
+- `Data/Festivals/summer11:set-up_y2` event2/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Luau2/viewport -1000 -1000/loa
+- `Data/Festivals/summer28:conditions` Beach/2200 2400
+- `Data/Festivals/summer28:set-up` ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies/viewport -1000 -1000/lo
+- `Data/Festivals/summer28:set-up_y2` ocean/-1000 -1000/farmer 38 3 2/changeToTemporaryMap Beach-Jellies2/viewport -1000 01000/l
+- `Data/Festivals/winter25:conditions` Town/900 1400
+- `Data/Festivals/winter25:set-up` christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas/viewport -10
+- `Data/Festivals/winter25:secretSanta` none/-1000 -1000/farmer 30 69 0/warp Emily 37 59/warp Haley 35 74/warp secretSanta 29 75/f
+- `Data/Festivals/winter25:set-up_y2` christmasTheme/-1000 -1000/farmer 12 54 1/changeToTemporaryMap Town-Christmas2/viewport -1
+- `Data/Festivals/winter25:secretSanta_y2` none/-1000 -1000/farmer 30 69 0/warp Abigail 35 73/warp Caroline 16 54/warp secretSanta 29
+- `Data/Festivals/winter8:conditions` Forest/900 1400
+- `Data/Festivals/winter8:set-up` christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival/viewport 
+- `Data/Festivals/winter8:set-up_y2` christmasTheme/-1000 -1000/farmer 68 0 1/changeToTemporaryMap Forest-IceFestival2/viewport
+- `Data/SecretNotes:11` !image 6
+- `Data/SecretNotes:16` !image 0
+- `Data/SecretNotes:17` !image 1
+- `Data/SecretNotes:18` !image 3
+- `Data/SecretNotes:19` !image 2
+- `Data/SecretNotes:20` !image 4
+- `Data/SecretNotes:21` !image 5
+- `Data/SecretNotes:1004` !image 10
+- `Data/SecretNotes:1006` !image 8
+- `Data/SecretNotes:1010` !image 9
+- `Strings/1_6_Strings:Scholar_Question_0_0_Answers` Clint,Gunther,Gus,Willy,Marnie,Pierre,Robin,Marlon
+- `Strings/1_6_Strings:Scholar_Question_3_1_Answers` Mullner,Millener,Molnar,Nelson,Miller
+- `Strings/1_6_Strings:Cook_DishNames_3_0` Calico Pizza
+- `Strings/1_6_Strings:Cook_DishNames_4_0` Cioppino
+- `Strings/1_6_Strings:Racer_3` Escar-go
+- `Strings/1_6_Strings:Fizz_Sweet` Hee Hee!
+- `Strings/1_6_Strings:PastaPrimavera_Name` Pasta Primavera
+- `Strings/BigCraftables:Bongo_Name` Bongo
+- `Strings/BigCraftables:Camera_Name` Camera
+- `Strings/BigCraftables:Crystalarium_Name` Crystalarium
+- `Strings/BigCraftables:Deconstructor_Name` Deconstructor
+- `Strings/BigCraftables:Dehydrator_Name` Dehydrator
+- `Strings/BigCraftables:Obelisk_Name` Obelisk
+- `Strings/Buildings:Paint_Region_Trim` Trim
+- `Strings/Buildings:JunimoHut_Name` Junimo Hut
+- `Strings/Buildings:Silo_Name` Silo
+- `Strings/Characters:DefaultHorseName` Grover
+- `Strings/Characters:JunimoTextAboveHead1` Junimo!
+- `Strings/Characters:Saloon_badEvent_0` Arrgh!
+- `Strings/Furniture:VanillaVilla` 'Vanilla Villa'
+- `Strings/Furniture:Spires` 'Spires'
+- `Strings/Furniture:VGAParadise` 'VGA Paradise'
+- `Strings/Furniture:Anchor` Anchor
+- `Strings/Furniture:Mysterium` 'Mysterium'
+- `Strings/Furniture:Wumbus` 'Wumbus'
+- `Strings/Furniture:Bed` Bed
+- `Strings/Furniture:Cactus` Cactus
+- `Strings/Furniture:Glyph` Glyph
+- `Strings/Furniture:Hut` 'Hut'
+- `Strings/Furniture:Abstract` 'Abstract'
+- `Strings/Furniture:UFO` 'UFO'
+- `Strings/Locations:AdventureGuild_KillList_Mummies` Mummies
+- `Strings/Locations:FarmHouse_SpouseAttacked9` Help!
+- `Strings/Locations:Saloon_Arcade_Minecart_Menu` = Junimo Kart =
+- `Strings/Locations:IslandNorth_CaveHelp_0` Help!
+- `Strings/Locations:IslandNorth_CaveTool_2` Hmm...
+- `Strings/Locations:NutHint_Arch` Help man in tent...
+- `Strings/Locations:Hint` Hint
+- `Strings/MovieConcessions:JojaCorn_Name` JojaCorn
+- `Strings/MovieReactions:Jas_horror_AfterMovie` *sniff*...$s
+- `Strings/Movies:Wumbus_Title` Wumbus
+- `Strings/Movies:Wumbus_Scene1` 'Wumbus'
+- `Strings/Movies:ItHowlsInTheRain_Scene6_2` Agh! 
+- `Strings/Movies:ItHowlsInTheRain_Scene8` Aiii! 
+- `Strings/NPCNames:Abigail` Abigail
+- `Strings/NPCNames:Alex` Alex
+- `Strings/NPCNames:Birdie` Birdie
+- `Strings/NPCNames:Caroline` Caroline
+- `Strings/NPCNames:Clint` Clint
+- `Strings/NPCNames:Demetrius` Demetrius
+- `Strings/NPCNames:Elliott` Elliott
+- `Strings/NPCNames:Emily` Emily
+- `Strings/NPCNames:Evelyn` Evelyn
+- `Strings/NPCNames:George` George
+- `Strings/NPCNames:Gil` Gil
+- `Strings/NPCNames:Gunther` Gunther
+- `Strings/NPCNames:Gus` Gus
+- `Strings/NPCNames:Haley` Haley
+- `Strings/NPCNames:Harvey` Harvey
+- `Strings/NPCNames:Jas` Jas
+- `Strings/NPCNames:Jodi` Jodi
+- `Strings/NPCNames:Kent` Kent
+- `Strings/NPCNames:Leah` Leah
+- `Strings/NPCNames:Leo` Leo
+- `Strings/NPCNames:Lewis` Lewis
+- `Strings/NPCNames:Linus` Linus
+- `Strings/NPCNames:Marlon` Marlon
+- `Strings/NPCNames:Marnie` Marnie
+- `Strings/NPCNames:Maru` Maru
+- `Strings/NPCNames:Morris` Morris
+- `Strings/NPCNames:Pam` Pam
+- `Strings/NPCNames:Penny` Penny
+- `Strings/NPCNames:Pierre` Pierre
+- `Strings/NPCNames:Robin` Robin
+- `Strings/NPCNames:Sam` Sam
+- `Strings/NPCNames:Sandy` Sandy
+- `Strings/NPCNames:Sebastian` Sebastian
+- `Strings/NPCNames:Shane` Shane
+- `Strings/NPCNames:Vincent` Vincent
+- `Strings/NPCNames:Welwick` Welwick
+- `Strings/NPCNames:Willy` Willy
+- `Strings/NPCNames:Fizz` Fizz
+- `Strings/Objects:Aerinite_Name` Aerinite
+- `Strings/Objects:Basalt_Name` Basalt
+- `Strings/Objects:Book_Void_Name` Monster Compendium
+- `Strings/Objects:Broccoli_Name` Broccoli
+- `Strings/Objects:Bruschetta_Name` Bruschetta
+- `Strings/Objects:Geminite_Name` Geminite
+- `Strings/Objects:Geode_Name` Geode
+- `Strings/Objects:Hedge_Name` Hedge
+- `Strings/Objects:Honey_Flavored_Name` {0} Honey
+- `Strings/Objects:Honey_Wild_Name` Wild Honey
+- `Strings/Objects:Jade_Name` Jade
+- `Strings/Objects:Jelly_Flavored_Name` {0} Jelly
+- `Strings/Objects:Jelly_Flavored_(O)282_Name` Cranberry Jelly
+- `Strings/Objects:Juice_Flavored_Name` {0} Juice
+- `Strings/Objects:Juice_Flavored_(O)282_Name` Cranberry Juice
+- `Strings/Objects:MagmaGeode_Name` Magma Geode
+- `Strings/Objects:Mango_Name` Mango
+- `Strings/Objects:MonsterMusk_Name` Monster Musk
+- `Strings/Objects:Octopus_Name` Octopus
+- `Strings/Objects:Omelet_Name` Omelet
+- `Strings/Objects:PinaColada_Name` Piña Colada
+- `Strings/Objects:Pizza_Name` Pizza
+- `Strings/Objects:Poi_Name` Poi
+- `Strings/Objects:Sardine_Name` Sardine
+- `Strings/Objects:Sashimi_Name` Sashimi
+- `Strings/Objects:Spaghetti_Name` Spaghetti
+- `Strings/Objects:Spinner_Name` Spinner
+- `Strings/Objects:SupplyCrate_Name` SupplyCrate
+- `Strings/Objects:Tilapia_Name` Tilapia
+- `Strings/Objects:Tortilla_Name` Tortilla
+- `Strings/Objects:WarpTotemQisArena_Name` Warp Totem: Qi's Arena
+- `Strings/SpecialOrderStrings:Marlon_DF_Monster_2_LocalizedName` Mummies
+- `Strings/SpecialOrderStrings:Marlon_DF_Item_0_LocalizedName` Omni Geodes
+- `Strings/SpeechBubbles:ScienceHouse_Robin_RareGreeting` Lew...? Oh...
+- `Strings/SpeechBubbles:AnimalShop_Marnie_RareGreeting` Lew...? Oh...
+- `Strings/StringsFromCSFiles:Debris.cs.626` Iridium
+- `Strings/StringsFromCSFiles:Dialogue.cs.698` Bitter
+- `Strings/StringsFromCSFiles:Dialogue.cs.749` Basket Town
+- `Strings/StringsFromCSFiles:Dialogue.cs.750` Pine Mesa City
+- `Strings/StringsFromCSFiles:Dialogue.cs.752` Minister Valley
+- `Strings/StringsFromCSFiles:Dialogue.cs.753` Grampleton
+- `Strings/StringsFromCSFiles:Dialogue.cs.754` Zuzu City
+- `Strings/StringsFromCSFiles:Dialogue.cs.756` Fort Josa
+- `Strings/StringsFromCSFiles:Dialogue.cs.757` Chestervale
+- `Strings/StringsFromCSFiles:Dialogue.cs.793` baby
+- `Strings/StringsFromCSFiles:Event.cs.1794` Dudley
+- `Strings/StringsFromCSFiles:Event.cs.1795` Yogi
+- `Strings/StringsFromCSFiles:Event.cs.1796` Miso
+- `Strings/StringsFromCSFiles:Event.cs.1797` Snooch
+- `Strings/StringsFromCSFiles:Event.cs.1862` Abigail!
+- `Strings/StringsFromCSFiles:Farmer.cs.2021` Planter
+- `Strings/StringsFromCSFiles:Utility.cs.5786` Pelican Town
+- `Strings/StringsFromCSFiles:winter` winter
+- `Strings/StringsFromCSFiles:FishingGame.cs.10444` Score: {0}
+- `Strings/StringsFromCSFiles:MapPage.cs.11083` Saloon
+- `Strings/StringsFromCSFiles:MapPage.cs.11097` Tent
+- `Strings/StringsFromCSFiles:MapPage.cs.11172` Stardrop Saloon
+- `Strings/StringsFromCSFiles:MapPage.cs.11179` Tunnel
+- `Strings/StringsFromCSFiles:MapPage.cs.11190` Pelican Town
+- `Strings/StringsFromCSFiles:StrengthGame.cs.11662` Gorilla
+- `Strings/StringsFromCSFiles:StrengthGame.cs.11663` Bulldozer
+- `Strings/StringsFromCSFiles:StrengthGame.cs.11668` Bodybuilder
+- `Strings/StringsFromCSFiles:StrengthGame.cs.11701` Plankton
+- `Strings/StringsFromCSFiles:AbigailGame.cs.11901` Urghh...
+- `Strings/StringsFromCSFiles:Slots.cs.12117` Bet10
+- `Strings/StringsFromCSFiles:Slots.cs.12118` Bet100
+- `Strings/StringsFromCSFiles:Boots.cs.12500` Level {0}
+- `Strings/StringsFromCSFiles:Object.cs.12854` Fruit
+- `Strings/StringsFromCSFiles:TV.cs.13170` in Pelican Town
+- `Strings/StringsFromCSFiles:ItemDeliveryQuest.cs.13386` pizza
+- `Strings/StringsFromCSFiles:ItemDeliveryQuest.cs.13391` calzone
+- `Strings/StringsFromCSFiles:ItemDeliveryQuest.cs.13392` taco
+- `Strings/StringsFromCSFiles:ItemDeliveryQuest.cs.13393` burrito
+- `Strings/StringsFromCSFiles:ItemDeliveryQuest.cs.13454` acne
+- `Strings/StringsFromCSFiles:Tool.cs.14303` Level {0} {1}
+- `Strings/StringsFromCSFiles:Language.7` Thai
+- `Strings/StringsFromCSFiles:Ring.cs.1` Ring
+- `Strings/StringsFromCSFiles:Tab` Tab
+- `Strings/StringsFromCSFiles:Enter` Enter
+- `Strings/StringsFromCSFiles:CapsLock` CapsLock
+- `Strings/StringsFromCSFiles:Kana` Kana
+- `Strings/StringsFromCSFiles:Kanji` Kanji
+- `Strings/StringsFromCSFiles:ImeConvert` ImeConvert
+- `Strings/StringsFromCSFiles:ImeNoConvert` ImeNoConvert
+- `Strings/StringsFromCSFiles:PageUp` PageUp
+- `Strings/StringsFromCSFiles:PageDown` PageDown
+- `Strings/StringsFromCSFiles:End` End
+- `Strings/StringsFromCSFiles:Home` Home
+- `Strings/StringsFromCSFiles:Select` Select
+- `Strings/StringsFromCSFiles:Print` Print
+- `Strings/StringsFromCSFiles:Insert` Insert
+- `Strings/StringsFromCSFiles:Delete` Delete
+- `Strings/StringsFromCSFiles:Help` Help
+- `Strings/StringsFromCSFiles:PrintScreen` PrintScreen
+- `Strings/StringsFromCSFiles:Apps` Apps
+- `Strings/StringsFromCSFiles:NumLock` NumLock
+- `Strings/StringsFromCSFiles:Scroll` Scroll
+- `Strings/StringsFromCSFiles:Plus` Plus
+- `Strings/StringsFromCSFiles:Tilde` Tilde
+- `Strings/StringsFromCSFiles:ChatPadGreen` ChatPadGreen
+- `Strings/StringsFromCSFiles:ChatPadOrange` ChatPadOrange
+- `Strings/StringsFromCSFiles:Backslash` Backslash
+- `Strings/StringsFromCSFiles:ProcessKey` ProcessKey
+- `Strings/StringsFromCSFiles:Copy` Copy
+- `Strings/StringsFromCSFiles:Auto` Auto
+- `Strings/StringsFromCSFiles:EnlW` EnlW
+- `Strings/StringsFromCSFiles:Attn` Attn
+- `Strings/StringsFromCSFiles:Crsel` Crsel
+- `Strings/StringsFromCSFiles:Exsel` Exsel
+- `Strings/StringsFromCSFiles:EraseEof` EraseEof
+- `Strings/StringsFromCSFiles:Zoom` Zoom
+- `Strings/StringsFromCSFiles:Clear` Clear
+- `Strings/StringsFromCSFiles:junimokart_slimemusic` Junimo Kart (Slomp's Stomp)
+- `Strings/StringsFromMaps:JojaMart.39` Pesto
+- `Strings/StringsFromMaps:JojaMart.70` X-treme Chipz
+- `Strings/UI:AnimalQuery_AgeBaby`  (Baby)
+- `Strings/UI:BobberBar_Perfect` Perfect!
+- `Strings/UI:Character_Shirt` Shirt
+- `Strings/UI:Character_Accessory` Acc.
+- `Strings/UI:LevelUp_ProfessionName_Tapper` Tapper
+- `Strings/UI:LevelUp_ProfessionName_Desperado` Desperado
+- `Strings/UI:GameMenu_ServerMode_Offline` Offline
+- `Strings/UI:GameMenu_ServerMode_Online` Online
+- `Strings/UI:CoopMenu_Host` Host
+- `Strings/UI:OptionsPage_MultiplayerSection` Multiplayer
+- `Strings/UI:Profile_Status` Status
+- `Strings/UI:Junimo_Kart_Level_5` Slomp's Stomp
+- `Strings/UI:Darts_Bull` Bull!
+- `Strings/UI:ParrotPlatform_Forest` Jungle
+- `Strings/UI:EndCredit_Monsters` Monsters
+- `Strings/UI:Chat_HardModeSkullCaveActivated` {0} has removed an ancient magi-seal of protection in the Skull Cavern. Tonight, powerful 
+- `Strings/UI:Chat_HardModeSkullCaveDeactivated` {0} has restored an ancient magi-seal of protection in the Skull Cavern. Tomorrow, it will
+- `Strings/UI:Cancel` Cancel
+- `Strings/Weapons:Meowmere_Name` Meowmere
+- `Strings/Weapons:Rapier_Name` Rapier

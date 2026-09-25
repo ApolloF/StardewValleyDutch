@@ -1,0 +1,253 @@
+# Migratie-rapport
+
+- 179 assets gemigreerd
+- 0 scripts automatisch op de huidige Engelse structuur gezet
+- 38 teksten met gecorrigeerde ID's/commando's
+
+## Scripts met ander aantal tekstdelen (handmatig) (0)
+
+
+## Harde tokens wijken af (handmatig) (7)
+
+- `Characters/Dialogue/Jodi: Thu -> switch`
+- `Data/ExtraDialogue: Robin_NewConstruction_Festival -> placeholder`
+- `Data/ExtraDialogue: Robin_NewConstruction -> placeholder`
+- `Strings/1_6_Strings: Gil_Rating_15to19 -> placeholder`
+- `Strings/MovieReactions: Evelyn_love_AfterMovie -> placeholder`
+- `Strings/StringsFromCSFiles: FarmComputer_Intro_Farm -> placeholder`
+- `Strings/StringsFromCSFiles: FarmComputer_Intro_NamedLocation -> placeholder`
+
+## Structuur van velden wijkt af (0)
+
+
+## Verwijderde sleutels (bestaan niet meer in het spel) (3)
+
+- `credits: unaligned delete en['Casey Warrington'] nl[]`
+- `credits: unaligned replace en['Alessio Messersì (Italian)', 'Junho Won (Korean)', 'Jo "Josh" Sanghee (Korean)', 'Not Shalulu (French)', 'Gőz Richárd "TRC" (Hungarian)', 'Hüseyin Serhat Çavunt (Turkish)', 'Salih Emircan Ayyıldız (Turkish)', 'Ali Batuhan Özkan (Turkish)', 'Hilmi Furkan Yaşık (Turkish)', 'Daniel Ruiz "TheBrightKing" (Spanish)', 'Sandra Martín Sigüenza (Spanish)', 'Alexander Preymak (Russian)', 'Arina Bedrina (Russian)', 'Niclaus Leo "Royami" (Russian Font/Graphics)', 'Alessandro Raffaele-Addamo (German)', 'Vinícius de Medeiros Miguel (Portuguese)', 'Watermelon Translations (Simplified Chinese)', 'Takashi Fujimoto (Japanese)'] nl['Alessio Messersì (Italiaans)', 'Junho Won (Koreaans)', 'Jo "Josh" Sanghee (Koreaans)', 'Not Shalulu (Frans)', 'Gőz Richárd "TRC" (Hongaars)', 'Hüseyin Serhat Çavunt (Turks)', 'Salih Emircan Ayyıldız (Turks)', 'Ali Batuhan Özkan (Turks)', 'Hilmi Furkan Yaşık (Turks)', 'Daniel Ruiz "TheBrightKing" (Spaans)', 'Alexander Preymak (Russisch)', 'Arina Bedrina (Russisch)', 'Niclaus Leo "Royami" (Russisch schrift/Graphics)', 'Alessandro Raffaele-Addamo (Duits)', 'Vinícius de Medeiros Miguel (Portugess)', 'Watermelon Translations (Vereenvoudigd Chinees)', 'Takashi Fujimoto (Japans)']`
+- `credits: unaligned replace en['[link] https://www.stardewvalley.net Official Website', '[link] https://forums.stardewvalley.net Official Forums', '[link] https://www.stardewvalley.net/links News & Community'] nl['[link] https://www.stardewvalley.net Officiële website', '[link] https://forums.stardewvalley.net Officiële Forums', '[link] https://www.twitter.com/ConcernedApe Twitter van ConcernedApe', '[link] https://www.reddit.com/r/StardewValley Stardew Valley Subreddit']`
+
+## Zachte tokens wijken af (emoties/pagina's, ter controle) (223)
+
+- `Characters/Dialogue/Abigail: FlowerDance_Accept`
+- `Characters/Dialogue/Abigail: AcceptBirthdayGift_Negative`
+- `Characters/Dialogue/Abigail: AcceptGift_(TR)BasiliskPaw`
+- `Characters/Dialogue/Abigail: GreenRainFinished`
+- `Characters/Dialogue/Abigail: dating_Abigail_memory_oneyear`
+- `Characters/Dialogue/Abigail: movieTheater`
+- `Characters/Dialogue/Abigail: FlowerDance_Accept_Spouse`
+- `Characters/Dialogue/Alex: AcceptGift_(O)Book_Defense`
+- `Characters/Dialogue/Alex: AcceptGift_(O)305`
+- `Characters/Dialogue/Alex: GreenRain`
+- `Characters/Dialogue/Alex: dating_Alex_memory_oneday`
+- `Characters/Dialogue/Alex: Resort_Shore`
+- `Characters/Dialogue/Alex: Tue`
+- `Characters/Dialogue/Alex: Fri`
+- `Characters/Dialogue/Alex: Sat`
+- `Characters/Dialogue/Alex: Fri4`
+- `Characters/Dialogue/Alex: fall_Sun`
+- `Characters/Dialogue/Alex: winter_Sun`
+- `Characters/Dialogue/Caroline: AcceptGift_(O)16`
+- `Characters/Dialogue/Caroline: cropMatured_815`
+- `Characters/Dialogue/Caroline: married_Abigail`
+- `Characters/Dialogue/Caroline: achievement_15`
+- `Characters/Dialogue/Clint: Resort_Chair`
+- `Characters/Dialogue/Demetrius: AcceptBirthdayGift_Positive`
+- `Characters/Dialogue/Elliott: AcceptBirthdayGift_Positive`
+- `Characters/Dialogue/Elliott: AcceptBirthdayGift_Negative`
+- `Characters/Dialogue/Elliott: AcceptGift_(O)814`
+- `Characters/Dialogue/Elliott: dating_Elliott`
+- `Characters/Dialogue/Emily: AcceptBirthdayGift_Negative`
+- `Characters/Dialogue/Emily: married_Haley`
+- `Characters/Dialogue/Emily: FlowerDance_Accept_Spouse`
+- `Characters/Dialogue/Emily: Tue4`
+- `Characters/Dialogue/Emily: Wed8`
+- `Characters/Dialogue/Emily: summer_Tue`
+- `Characters/Dialogue/Evelyn: AcceptGift_(O)StardropTea`
+- `Characters/Dialogue/Haley: AcceptBirthdayGift_Liked`
+- `Characters/Dialogue/Haley: AcceptBirthdayGift_Negative`
+- `Characters/Dialogue/Haley: eventSeen_14`
+- `Characters/Dialogue/Haley: eventSeen_12_memory_oneweek`
+- `Characters/Dialogue/Haley: married_Emily`
+- `Characters/Dialogue/Harvey: AcceptBirthdayGift_Positive`
+- `Characters/Dialogue/Jas: AcceptBirthdayGift_Positive`
+- `Characters/Dialogue/Jas: AcceptBirthdayGift_Negative`
+- `Characters/Dialogue/Jas: AcceptGift_(O)103`
+- `Characters/Dialogue/Jas: AcceptGift_Negative_alcohol_item`
+- `Characters/Dialogue/Jodi: dating_Sam_memory_oneday`
+- `Characters/Dialogue/Jodi: eventSeen_3910975`
+- `Characters/Dialogue/Jodi: Thu`
+- `Characters/Dialogue/Kent: married_Sam`
+- `Characters/Dialogue/Kent: Tue6`
+- `Characters/Dialogue/Krobus: SpouseStardrop`
+- `Characters/Dialogue/Krobus: AcceptBirthdayGift_Positive`
+- `Characters/Dialogue/Krobus: Sat4`
+- `Characters/Dialogue/Leah: AcceptGift_(O)430`
+- `Characters/Dialogue/Leah: AcceptGift_(O)200`
+- `Characters/Dialogue/Leah: AcceptGift_(O)196`
+- `Characters/Dialogue/Leah: FlowerDance_Accept_Spouse`
+- `Characters/Dialogue/Leah: GreenRainFinished`
+- `Characters/Dialogue/Leah: Wed8`
+- `Characters/Dialogue/Leah: Sun8`
+- `Characters/Dialogue/Lewis: Resort`
+- `Characters/Dialogue/Lewis: married`
+- `Characters/Dialogue/Linus: AcceptGift_(O)Book_Trash`
+- `Characters/Dialogue/Linus: AcceptGift_Positive_category_fish`
+- `Characters/Dialogue/Linus: DumpsterDiveComment`
+- `Characters/Dialogue/Marnie: AcceptGift_(O)SkillBook_0`
+- `Characters/Dialogue/Marnie: structureBuilt_Stable`
+- `Characters/Dialogue/MarriageDialogue: Bad_2`
+- `Characters/Dialogue/MarriageDialogueHaley: Outdoor_Haley`
+- `Characters/Dialogue/MarriageDialogueHarvey: Good_2`
+- `Characters/Dialogue/MarriageDialogueKrobus: Neutral_0`
+- `Characters/Dialogue/MarriageDialogueLeah: Bad_2`
+- `Characters/Dialogue/Maru: AcceptBirthdayGift_Positive`
+- `Characters/Dialogue/Maru: AcceptGift_(O)336`
+- `Characters/Dialogue/Maru: summer_Wed4`
+- `Characters/Dialogue/Pam: GreenRainFinished`
+- `Characters/Dialogue/Pam: divorced_Penny`
+- `Characters/Dialogue/Penny: AcceptBirthdayGift_Positive`
+- `Characters/Dialogue/Penny: eventSeen_36_memory_oneweek`
+- `Characters/Dialogue/Penny: dating_Maru_memory_oneday`
+- `Characters/Dialogue/Penny: FlowerDance_Decline`
+- `Characters/Dialogue/Penny: Tue4`
+- `Characters/Dialogue/Pierre: AcceptGift_(O)Book_PriceCatalogue`
+- `Characters/Dialogue/Pierre: eventSeen_4`
+- `Characters/Dialogue/Pierre: eventSeen_3102768_memory_oneweek`
+- `Characters/Dialogue/Pierre: summer_Wed`
+- `Characters/Dialogue/Pierre: summer_Wed2`
+- `Characters/Dialogue/Robin: AcceptGift_(O)SkillBook_2`
+- `Characters/Dialogue/Robin: married_Sebastian`
+- `Characters/Dialogue/Robin: structureBuilt_Slime Hutch`
+- `Characters/Dialogue/Sam: AcceptGift_(O)206`
+- `Characters/Dialogue/Sam: AcceptBirthdayGift_Positive`
+- `Characters/Dialogue/Sam: dating_Sam`
+- `Characters/Dialogue/Sam: married_Abigail`
+- `Characters/Dialogue/Sam: FlowerDance_Accept_Spouse`
+- `Characters/Dialogue/Sebastian: AcceptBirthdayGift_Positive`
+- `Characters/Dialogue/Sebastian: AcceptGift_(O)575`
+- `Characters/Dialogue/Sebastian: AcceptGift_(TR)FrogEgg`
+- `Characters/Dialogue/Sebastian: summer_Tue4`
+- `Characters/Dialogue/Shane: Thu6`
+- `Characters/Dialogue/Shane: Fri8`
+- `Characters/Dialogue/Vincent: AcceptBirthdayGift_Positive`
+- `Characters/Dialogue/Vincent: AcceptGift_(TR)FrogEgg`
+- `Characters/Dialogue/Willy: AcceptGift_(O)Book_Crabbing`
+- `Characters/Dialogue/Willy: AcceptGift_(O)SkillBook_1`
+- `Characters/Dialogue/Willy: AcceptGift_(O)336`
+- `Characters/Dialogue/Willy: fishCaught_682`
+- `Characters/Dialogue/Willy: Fair_Judged`
+- `Characters/Dialogue/Wizard: AcceptGift_(O)StardropTea`
+- `Characters/Dialogue/rainy: Harvey`
+- `Data/EngagementDialogue: Leah0`
+- `Data/Events/Beach: 43/f Elliott 2500/w sunny/t 700 1300/G !IS_PASSIVE_FESTIVAL_TODAY SquidFest`
+- `Data/Events/Farm: 3912125/f Elliott 3500/O Elliott/t 500 1500/p Elliott/U 8`
+- `Data/Events/Railroad: 528052/f Harvey 2500/t 900 1700/n harveyBalloon`
+- `Data/Events/Saloon: 195099/f Shane 2500/f Sebastian 2500/f Sam 2500/f Harvey 2500/f Alex 2500/f Elliott 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 911526/e 528052/e 9581348/e 43/e 384882/e 233104/i 446/k 195013`
+- `Data/Events/Town: 101/f Clint 1500/e 97/k 2123243/k 2123343/o Emily/t 900 1830/a 0 90/!D Emily`
+- `Data/Events/Town: itsagift`
+- `Data/Events/Town: itsagift_pennySpouse`
+- `Data/Events/Town: 15389722/j 57`
+- `Data/Events/Trailer: 963313/n pamPotatoJuice`
+- `Data/ExtraDialogue: PurchasedItem_1_QualityLow`
+- `Data/ExtraDialogue: Island_leo_rescue`
+- `Data/ExtraDialogue: SummitEvent_Outro_Lewis`
+- `Data/ExtraDialogue: SummitEvent_Dialogue1_Morris`
+- `Data/ExtraDialogue: SummitEvent_Dialogue1B_Spouse`
+- `Data/Festivals/fall16: Pam_y2`
+- `Data/Festivals/fall16: Haley_y2`
+- `Data/Festivals/fall16: Harvey_y2`
+- `Data/Festivals/fall16: Vincent_y2`
+- `Data/Festivals/fall27: Leah_spouse_y2`
+- `Data/Festivals/fall27: Sebastian_spouse_y2`
+- `Data/Festivals/fall27: Shane_spouse_y2`
+- `Data/Festivals/fall27: Evelyn_y2`
+- `Data/Festivals/fall27: Willy_y2`
+- `Data/Festivals/fall27: Vincent_y2`
+- `Data/Festivals/fall27: Krobus_y2`
+- `Data/Festivals/spring24: Haley_spouse_y2`
+- `Data/Festivals/spring24: Alex_spouse_y2`
+- `Data/Festivals/spring24: Penny_y2`
+- `Data/Festivals/spring24: Haley_y2`
+- `Data/Festivals/spring24: Jas_y2`
+- `Data/Festivals/spring24: Leo_y2`
+- `Data/Festivals/summer11: Maru_spouse_y2`
+- `Data/Festivals/summer11: Sam_spouse_y2`
+- `Data/Festivals/summer11: Alex_y2`
+- `Data/Festivals/summer11: Pam_y2`
+- `Data/Festivals/summer28: Haley`
+- `Data/Festivals/summer28: Alex_spouse_y2`
+- `Data/Festivals/summer28: Willy_y2`
+- `Data/Festivals/winter25: Sebastian_spouse_y2`
+- `Data/Festivals/winter25: Kent_y2`
+- `Data/SecretNotes: 24`
+- `Data/SecretNotes: 25`
+- `Data/SecretNotes: 27`
+- `Data/SecretNotes: 1003`
+- `Data/SecretNotes: 1007`
+- `Data/mail: dad2`
+- `Data/mail: pierreBackpack`
+- `Data/mail: robinKitchenLetter`
+- `Data/mail: fertilizers2`
+- `Data/mail: elliottLetter6`
+- `Data/mail: DemetriusReward`
+- `Data/mail: willyHours`
+- `Data/mail: pamNewChannel`
+- `Data/mail: emilyStones`
+- `Data/mail: GreenRainGus`
+- `Data/mail: DesertFestival`
+- `Data/mail: MarniePetAdoption`
+- `Strings/1_6_Strings: DesertFestival_Sam`
+- `Strings/1_6_Strings: MakeOver_Emily_AlreadyStyled`
+- `Strings/1_6_Strings: MakeOver_Emily_3`
+- `Strings/1_6_Strings: DF_Mine_Explanation`
+- `Strings/1_6_Strings: DF_Mine_Explanation_2`
+- `Strings/1_6_Strings: FishingDerbySign`
+- `Strings/1_6_Strings: Jas_IceCream`
+- `Strings/1_6_Strings: GrandpaMasteryNote`
+- `Strings/1_6_Strings: GiantQiFruitMessage`
+- `Strings/1_6_Strings: JojaCatalogueDescriptionTerms`
+- `Strings/1_6_Strings: Pam_busSign_generic`
+- `Strings/Characters: Phone_Marnie_Open_Rare`
+- `Strings/Locations: FarmHouse_SpouseAttacked3`
+- `Strings/Locations: Gourmand_Intro`
+- `Strings/Locations: Gourmand_RequestIntro`
+- `Strings/Locations: Gourmand_Request_0`
+- `Strings/Locations: Gourmand_LastReward`
+- `Strings/Locations: ScienceHouse_Carpenter_CommunityUpgrade2`
+- `Strings/MovieReactions: Evelyn_dislike_DuringMovie`
+- `Strings/MovieReactions: Abigail_spring_movie_1_BeforeMovie`
+- `Strings/MovieReactions: Abigail_spring_movie_1_AfterMovie`
+- `Strings/MovieReactions: Abigail_love_BeforeMovie`
+- `Strings/MovieReactions: Caroline_like_AfterMovie`
+- `Strings/MovieReactions: Caroline_dislike_AfterMovie`
+- `Strings/MovieReactions: Harvey_spring_movie_1_AfterMovie`
+- `Strings/MovieReactions: Gus_summer_movie_1_AfterMovie`
+- `Strings/MovieReactions: Sam_summer_movie_1_DuringMovie`
+- `Strings/MovieReactions: Vincent_love_BeforeMovie`
+- `Strings/MovieReactions: Vincent_love_AfterMovie`
+- `Strings/MovieReactions: Clint_like_BeforeMovie`
+- `Strings/MovieReactions: Emily_love_AfterMovie`
+- `Strings/MovieReactions: Maru_spring_movie_1_BeforeMovie`
+- `Strings/MovieReactions: Maru_summer_movie_1_AfterMovie`
+- `Strings/MovieReactions: Sebastian_love_AfterMovie`
+- `Strings/MovieReactions: Robin_love_AfterMovie`
+- `Strings/MovieReactions: Demetrius_spring_movie_1_DuringMovie`
+- `Strings/MovieReactions: Marnie_love_AfterMovie`
+- `Strings/MovieReactions: Jas_love_AfterMovie`
+- `Strings/MovieReactions: Leah_spring_movie_1_BeforeMovie`
+- `Strings/MovieReactions: Leah_spring_movie_1_AfterMovie`
+- `Strings/MovieReactions: Leo_love_AfterMovie`
+- `Strings/Notes: 0`
+- `Strings/Notes: 1`
+- `Strings/Notes: 2`
+- `Strings/Notes: 3`
+- `Strings/Notes: 5`
+- `Strings/Notes: 6`
+- `Strings/Notes: 7`
+- `Strings/Notes: 8`
+- `Strings/StringsFromCSFiles: GameLocation.cs.8214`
+- `Strings/StringsFromCSFiles: Pipe`
+- `Strings/StringsFromMaps: JoshHouse.1`
+- `Strings/StringsFromMaps: SeedShop.9`
+- `Strings/animationDescriptions: alex_lift_weights`
+- `Strings/schedules/Haley: winter_16.001`
