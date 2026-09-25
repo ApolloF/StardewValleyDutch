@@ -1,0 +1,16 @@
+{
+  "terms": [
+    {"en": ["Calico Egg", "Calico Eggs"], "nl": ["Calico-ei", "Calico-eieren"], "avoid": ["Calico ei", "Calico Ei", "Calico eieren", "Calico Eieren", "Calico Eggs", "Calico Egg"]},
+    {"en": ["Calico Desert"], "nl": ["Calico-woestijn"], "avoid": ["Calico woestijn", "Calico Woestijn", "Calico Desert"]},
+    {"en": ["Skull Cavern"], "nl": ["Schedelgrot"], "avoid": ["Skull Cavern", "Skull Cave", "Schedelgrotten"]},
+    {"en": ["Community Center"], "nl": ["Buurthuis"], "avoid": ["Gemeenschapscentrum", "Community Center"]},
+    {"en": ["Adventurer's Guild"], "nl": ["Avonturiersgilde"], "avoid": ["Adventurer's Guild", "gilde van avonturiers"]},
+    {"en": ["Ginger Island"], "nl": ["Ginger Island"], "avoid": ["Gembereiland"]},
+    {"en": ["Golden Walnut", "Golden Walnuts"], "nl": ["Gouden walnoot", "Gouden walnoten"], "avoid": ["Golden Walnut"]},
+    {"en": ["Prismatic Shard"], "nl": ["Prismatische scherf"], "avoid": ["Prismatic Shard"]},
+    {"en": ["Fern Islands"], "nl": ["Vareneilanden"], "avoid": ["Fern Islands", "Verre Eilanden"]},
+    {"en": ["Gem Sea"], "nl": ["Edelstenenzee"], "avoid": ["Gemstone Sea", "Gem Sea"]},
+    {"en": ["Crimsonfish"], "nl": ["Karmozijnvis"], "avoid": ["Roodvis", "rode soldatenvis", "Rode soldatenvis", "Karmijnvis"]},
+    {"en": ["Joja Cola"], "nl": ["Joja Cola"], "avoid": ["Joja cola", "Joja-Cola"]}
+  ]
+}

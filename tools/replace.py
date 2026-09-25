@@ -16,18 +16,25 @@ def run(edits, layer="nl"):
     failed = []
     for asset, key, old, new in edits:
         path = os.path.join(SOURCE, layer, asset + ".json")
-        data = cache.setdefault(path, load_json(path))
-        keys = list(data) if key == "*" else [key]
+        data = cache.setdefault(path, load_json(path, default={}))
+        base = load_json(os.path.join(SOURCE, "nl", asset + ".json"), default={}) if layer != "nl" else data
+        keys = list(dict.fromkeys([*base, *data])) if key == "*" else [key]
         hits = 0
         for k in keys:
-            v = data.get(k)
+            k, _, idx = k.partition("#")    # "key#idx" addresses one field of a slash-delimited entry
+            v = data.get(k, base.get(k))    # an override layer starts from the classic text
+            if idx:
+                v = {**base.get(k, {}), **data.get(k, {})}.get(idx)
             if not isinstance(v, str):
                 continue
             n = v.count(old)
             if key != "*" and n != 1:
                 break
             if n:
-                data[k] = v.replace(old, new)
+                if idx:
+                    data.setdefault(k, {})[idx] = v.replace(old, new)
+                else:
+                    data[k] = v.replace(old, new)
                 hits += n
         if hits == 0 or (key != "*" and hits != 1):
             failed.append((asset, key, old[:60], hits))

@@ -33,6 +33,23 @@
 - `Strings/StringsFromMaps:JoshHouse.1` 
 - `Strings/StringsFromMaps:SeedShop.9` 
 
-## [W] mogelijk afgekapt (2)
-- `Strings/BigCraftables:AutoPetter_Description` Aait automatisch elke ochtend je dieren Moet in een stal staan
-- `Strings/BigCraftables:HeavyTapper_Description` Plaats hem op een esdoorn, eik of den en wacht
+## [W] terminologie (19)
+- `Data/Festivals/fall16:Emily_spouse_y2` 'Calico Desert' -> 'Calico-woestijn'
+- `Data/Quests:130` 'Gembereiland' -> 'Ginger Island'
+- `Data/mail:DesertFestival` 'Calico Desert' -> 'Calico-woestijn'
+- `Strings/1_6_Strings:DesertFestival_Maru_marriage` 'Calico eieren' -> 'Calico-ei'
+- `Strings/1_6_Strings:DesertFestival_Alex` 'Calico eieren' -> 'Calico-ei'
+- `Strings/1_6_Strings:Willy_Challenge_Return_1` 'Calico eieren' -> 'Calico-ei'
+- `Strings/1_6_Strings:Willy_Challenge_Return_2` 'Calico eieren' -> 'Calico-ei'
+- `Strings/1_6_Strings:Willy_Challenge_Return_3` 'Calico eieren' -> 'Calico-ei'
+- `Strings/1_6_Strings:Scholar_Question_0_2_Answers` 'Calico Woestijn' -> 'Calico-woestijn'
+- `Strings/1_6_Strings:Shady_Guy` 'Calico ei' -> 'Calico-ei'
+- `Strings/1_6_Strings:Shady_Guy_2nd` 'Calico ei' -> 'Calico-ei'
+- `Strings/1_6_Strings:DF_Mine_CalicoStatue_Description_17` 'Calico eieren' -> 'Calico-ei'
+- `Strings/Locations:Saloon_MoneyBox` 'Gembereiland' -> 'Ginger Island'
+- `Strings/Objects:CalicoEgg_Name` 'Calico ei' -> 'Calico-ei'
+- `Strings/Objects:CalicoEggStone_Name` 'Calico Ei' -> 'Calico-ei'
+- `Strings/Objects:CalicoEggStone_Description` 'Calico eieren' -> 'Calico-ei'
+- `Strings/SpecialOrderStrings:Marlon_DF_2_Text` 'Skull Cave' -> 'Schedelgrot'
+- `Strings/StringsFromCSFiles:IslandMusic` 'Gembereiland' -> 'Ginger Island'
+- `Strings/StringsFromCSFiles:IslandName` 'Gembereiland' -> 'Ginger Island'

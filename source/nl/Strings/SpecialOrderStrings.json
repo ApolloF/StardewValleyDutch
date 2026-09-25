@@ -140,7 +140,7 @@
   "Marlon_DF_1_Text": "Bereik level 30 in de Schedelgrot.",
   "Marlon_DF_1_Objective": "Bereik level 30 in de Schedelgrot.",
   "Marlon_DF_2_Name": "Schattenjacht",
-  "Marlon_DF_2_Text": "Verzamel {Treasure:Count} {Treasure:LocalizedName} in de Skull Cave.",
+  "Marlon_DF_2_Text": "Verzamel {Treasure:Count} {Treasure:LocalizedName} in de Schedelgrot.",
   "Marlon_DF_2_Objective": "Verzamel {Treasure:Count} {Treasure:LocalisedName}.",
   "Marlon_DF_Item_0_LocalizedName": "Omni-geodes",
   "Marlon_DF_Item_1_LocalizedName": "Iridium erts stukken",

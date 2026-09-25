@@ -25,6 +25,27 @@ KNOWN_TOKENS = {"%adj", "%noun", "%place", "%spouse", "%name", "%farm", "%favori
                 "%firstnameletter", "%band", "%book", "%rival", "%time", "%year", "%season", "%fork", "%item",
                 "%action", "%secretsanta", "%revealtaste", "%endearment", "%endearmentlower"}
 BRACE = re.compile(r"[{}]")
+# words a Dutch sentence can't end on; a text ending on one where the English ends properly was cut off
+DANGLING = {"de", "het", "een", "van", "voor", "met", "naar", "om", "te", "aan", "bij", "en", "of", "maar", "dat",
+            "die", "dit", "deze", "jou", "zijn", "hun", "dezelfde", "als", "wanneer", "door", "tot", "wordt", "zal",
+            "moet", "waar", "wacht", "honderden", "een", "wonder", "redt", "the", "a", "and"}
+END_OK = re.compile(r"[.!?…)\"'”»:;*~-]\s*$")
+
+
+def cut_off(en_part, nl_part):
+    """Why a Dutch text part looks cut off compared to its English counterpart (or None)."""
+    e, n = en_part.strip(), nl_part.strip()
+    if not e or not n:
+        return None
+    if n.count("(") != n.count(")") and e.count("(") == e.count(")"):
+        return "haakjes niet gesloten"
+    if re.search(r"\S  +\S", n) and not re.search(r"\S  +\S", e):
+        return "dubbele spatie (woord weggevallen?)"
+    if END_OK.search(e) and not END_OK.search(n):
+        last = re.findall(r"[\wÀ-ÿ']+$", n)
+        if last and last[0].lower() in DANGLING:
+            return f"eindigt op '{last[0]}'"
+    return None
 
 
 def text_parts(asset, key, value):
@@ -118,6 +139,14 @@ def audit(edition):
             elen, nlen = len(" ".join(en_text)), len(joined)
             if elen > 40 and nlen < 0.4 * elen:
                 add("W", "mogelijk afgekapt", asset, key, joined[:90])
+            plain = asset not in FIELD_ASSETS and asset not in CARET_ASSETS and not (is_script_asset(asset) and is_script(ev))
+            pairs = [(ev, nv)] if plain else list(zip(en_text, nl_text)) if len(en_text) == len(nl_text) else []
+            if pairs:
+                for ep, np_ in pairs:
+                    why = cut_off(ep, np_)
+                    if why:
+                        add("E", "zin afgebroken", asset, key, f"{why}: …{np_.strip()[-70:]}")
+                        break
             if soft_signature(ev) != soft_signature(nv) and nv != ev:
                 add("W", "emoties/paginering anders dan Engels", asset, key)
             for term in glossary:

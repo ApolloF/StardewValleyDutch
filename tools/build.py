@@ -7,6 +7,7 @@ polished = source/nl + source/polish       -> build/[CP] Stardew Valley Nederlan
 """
 import json
 import os
+import re
 import shutil
 import sys
 
@@ -66,7 +67,9 @@ def patch_for(asset, data):
         return {"LogName": log, "Action": "EditData", "Target": asset, "Entries": entries}
     if asset in LIST_ASSETS:
         return None   # handled as a Load of a generated file
-    entries = {k: v for k, v in data.items() if k in en}
+    # keys the game looks up without English having them: per-ingredient names for flavored goods
+    extra = re.compile(r"\w+_Flavored_\(O\)[\w.]+_Name") if asset == "Strings/Objects" else None
+    entries = {k: v for k, v in data.items() if k in en or (extra and extra.fullmatch(k))}
     return {"LogName": log, "Action": "EditData", "Target": asset, "Entries": entries}
 
 
