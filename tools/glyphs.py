@@ -1,0 +1,124 @@
+"""Cut letters out of the official translations' textures and compose new words from them.
+
+The game's hand-drawn lettering only exists as pixels in the official localized textures, so Dutch
+words are assembled from those exact letters (same brush, same colors), never from a font.
+"""
+import os
+
+from paths import VANILLA
+from images import read_png
+
+_cache = {}
+
+
+class Image:
+    def __init__(self, w, h, px):
+        self.w, self.h, self.px = w, h, bytearray(px)
+
+    @classmethod
+    def load(cls, path):
+        if path not in _cache:
+            _cache[path] = read_png(path)
+        w, h, px = _cache[path]
+        return cls(w, h, px)
+
+    @classmethod
+    def sheet(cls, asset, lang="en"):
+        return cls.load(os.path.join(VANILLA, lang, asset + ".png"))
+
+    def get(self, x, y):
+        i = (y * self.w + x) * 4
+        return tuple(self.px[i:i + 4])
+
+    def set(self, x, y, c):
+        i = (y * self.w + x) * 4
+        self.px[i:i + 4] = bytes(c)
+
+    def crop(self, x, y, w, h):
+        out = Image(w, h, bytes(w * h * 4))
+        for yy in range(h):
+            i = ((y + yy) * self.w + x) * 4
+            out.px[yy * w * 4:(yy + 1) * w * 4] = self.px[i:i + w * 4]
+        return out
+
+    def paste(self, img, x, y):
+        for yy in range(img.h):
+            i = ((y + yy) * self.w + x) * 4
+            self.px[i:i + img.w * 4] = img.px[yy * img.w * 4:(yy + 1) * img.w * 4]
+
+
+class Glyph:
+    """Pixels of one letter: {(dx, dy): rgba} relative to its top-left, plus its baseline row."""
+    def __init__(self, pixels, w, h):
+        self.pixels, self.w, self.h = pixels, w, h
+
+    def recolor(self, mapping):
+        return Glyph({p: mapping.get(c, c) for p, c in self.pixels.items()}, self.w, self.h)
+
+    def without(self, points):
+        return Glyph({p: c for p, c in self.pixels.items() if p not in points}, self.w, self.h)
+
+    def plus(self, extra):
+        px = dict(self.pixels); px.update(extra)
+        w = max(self.w, max((x for x, _ in extra), default=0) + 1)
+        h = max(self.h, max((y for _, y in extra), default=0) + 1)
+        return Glyph(px, w, h)
+
+    def mirrored(self):
+        return Glyph({(self.w - 1 - x, y): c for (x, y), c in self.pixels.items()}, self.w, self.h)
+
+
+def text_mask(img, rect, colors):
+    """Set of (x, y) inside rect whose color is one of the text colors."""
+    x0, y0, w, h = rect
+    return {(x, y) for y in range(y0, y0 + h) for x in range(x0, x0 + w) if img.get(x, y)[:3] in colors}
+
+
+def segments(mask):
+    """Split a text mask into letters by empty columns: [(x0, x1)] inclusive."""
+    cols = sorted({x for x, _ in mask})
+    out = []
+    for x in cols:
+        if out and x == out[-1][1] + 1:
+            out[-1][1] = x
+        else:
+            out.append([x, x])
+    return [tuple(s) for s in out]
+
+
+def cut(img, mask, x0, x1, top, bottom):
+    """Glyph from the mask columns x0..x1, positioned relative to (x0, top)."""
+    pix = {(x - x0, y - top): img.get(x, y) for (x, y) in mask if x0 <= x <= x1 and top <= y <= bottom}
+    return Glyph(pix, x1 - x0 + 1, bottom - top + 1)
+
+
+def ascii(img, rect, colors, marks=".#+*o"):
+    x0, y0, w, h = rect
+    palette = {c: marks[1 + i % (len(marks) - 1)] for i, c in enumerate(colors)}
+    lines = ["     " + "".join(str((x // 10) % 10) for x in range(x0, x0 + w)),
+             "     " + "".join(str(x % 10) for x in range(x0, x0 + w))]
+    for y in range(y0, y0 + h):
+        lines.append(f"{y:4} " + "".join(palette.get(img.get(x, y)[:3], ".") for x in range(x0, x0 + w)))
+    return "\n".join(lines)
+
+
+def compose(glyphs, spacing=1):
+    """Lay glyphs out left to right; each item is a Glyph or ('gap', n) or (glyph, dy)."""
+    placed, x = [], 0
+    for g in glyphs:
+        if isinstance(g, tuple) and g[0] == "gap":
+            x += g[1]; continue
+        dy = 0
+        if isinstance(g, tuple):
+            g, dy = g
+        placed.append((g, x, dy))
+        x += g.w + spacing
+    width = x - spacing
+    height = max(g.h + dy for g, _, dy in placed)
+    return placed, width, height
+
+
+def stamp(img, placed, x, y):
+    for g, gx, dy in placed:
+        for (px_, py_), c in g.pixels.items():
+            img.set(x + gx + px_, y + dy + py_, c)

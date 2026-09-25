@@ -1,0 +1,62 @@
+[
+  {
+    "target": "Minigames/TitleButtons",
+    "file": "Minigames/TitleButtons/nieuw.png",
+    "area": [
+      0,
+      187,
+      74,
+      116
+    ]
+  },
+  {
+    "target": "Minigames/TitleButtons",
+    "file": "Minigames/TitleButtons/laden.png",
+    "area": [
+      74,
+      187,
+      74,
+      116
+    ]
+  },
+  {
+    "target": "Minigames/TitleButtons",
+    "file": "Minigames/TitleButtons/afsluiten.png",
+    "area": [
+      222,
+      187,
+      74,
+      116
+    ]
+  },
+  {
+    "target": "Minigames/TitleButtons",
+    "file": "Minigames/TitleButtons/terug.png",
+    "area": [
+      296,
+      252,
+      67,
+      54
+    ]
+  },
+  {
+    "target": "Minigames/TitleButtons",
+    "file": "Minigames/TitleButtons/ontwikkeld-door.png",
+    "area": [
+      171,
+      316,
+      112,
+      18
+    ]
+  },
+  {
+    "target": "Minigames/TitleButtons",
+    "file": "Minigames/TitleButtons/ontwikkeld-door-hover.png",
+    "area": [
+      283,
+      316,
+      110,
+      18
+    ]
+  }
+]
