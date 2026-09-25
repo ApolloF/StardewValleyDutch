@@ -880,346 +880,6 @@
     ]
   },
   {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-596-0.png",
-    "area": [
-      596,
-      0,
-      144,
-      144
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-748-0.png",
-    "area": [
-      748,
-      0,
-      32,
-      140
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-16-8.png",
-    "area": [
-      16,
-      8,
-      128,
-      164
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-324-8.png",
-    "area": [
-      324,
-      8,
-      172,
-      164
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-516-8.png",
-    "area": [
-      516,
-      8,
-      68,
-      16
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-188-16.png",
-    "area": [
-      188,
-      16,
-      60,
-      20
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-680-156.png",
-    "area": [
-      680,
-      156,
-      164,
-      100
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-160-204.png",
-    "area": [
-      160,
-      204,
-      204,
-      76
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-596-288.png",
-    "area": [
-      596,
-      288,
-      144,
-      144
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-748-288.png",
-    "area": [
-      748,
-      288,
-      32,
-      140
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-20-296.png",
-    "area": [
-      20,
-      296,
-      148,
-      80
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-352-296.png",
-    "area": [
-      352,
-      296,
-      148,
-      176
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-516-296.png",
-    "area": [
-      516,
-      296,
-      68,
-      16
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-188-312.png",
-    "area": [
-      188,
-      312,
-      56,
-      20
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-28-400.png",
-    "area": [
-      28,
-      400,
-      72,
-      28
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-680-444.png",
-    "area": [
-      680,
-      444,
-      164,
-      100
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-144-492.png",
-    "area": [
-      144,
-      492,
-      220,
-      76
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-596-576.png",
-    "area": [
-      596,
-      576,
-      144,
-      144
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-748-576.png",
-    "area": [
-      748,
-      576,
-      32,
-      140
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-12-584.png",
-    "area": [
-      12,
-      584,
-      232,
-      244
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-256-584.png",
-    "area": [
-      256,
-      584,
-      244,
-      224
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-516-584.png",
-    "area": [
-      516,
-      584,
-      68,
-      16
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-680-732.png",
-    "area": [
-      680,
-      732,
-      164,
-      100
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-596-864.png",
-    "area": [
-      596,
-      864,
-      144,
-      144
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-748-864.png",
-    "area": [
-      748,
-      864,
-      32,
-      140
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-20-872.png",
-    "area": [
-      20,
-      872,
-      148,
-      80
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-352-872.png",
-    "area": [
-      352,
-      872,
-      148,
-      124
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-516-872.png",
-    "area": [
-      516,
-      872,
-      68,
-      16
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-188-888.png",
-    "area": [
-      188,
-      888,
-      56,
-      20
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-276-888.png",
-    "area": [
-      276,
-      888,
-      36,
-      16
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-28-976.png",
-    "area": [
-      28,
-      976,
-      72,
-      28
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-412-1008.png",
-    "area": [
-      412,
-      1008,
-      92,
-      80
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-680-1020.png",
-    "area": [
-      680,
-      1020,
-      164,
-      100
-    ]
-  },
-  {
-    "target": "LooseSprites/ControllerMaps",
-    "file": "LooseSprites/ControllerMaps/sign-144-1068.png",
-    "area": [
-      144,
-      1068,
-      220,
-      76
-    ]
-  },
-  {
     "target": "LooseSprites/Cursors",
     "file": "LooseSprites/Cursors/sign-276-4.png",
     "area": [
@@ -1457,6 +1117,346 @@
       288,
       64,
       16
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-596-0.png",
+    "area": [
+      596,
+      0,
+      144,
+      144
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-748-0.png",
+    "area": [
+      748,
+      0,
+      32,
+      140
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-16-8.png",
+    "area": [
+      16,
+      8,
+      128,
+      164
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-324-8.png",
+    "area": [
+      324,
+      8,
+      172,
+      164
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-516-8.png",
+    "area": [
+      516,
+      8,
+      68,
+      16
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-188-16.png",
+    "area": [
+      188,
+      16,
+      60,
+      20
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-680-156.png",
+    "area": [
+      680,
+      156,
+      161,
+      100
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-160-204.png",
+    "area": [
+      160,
+      204,
+      204,
+      76
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-596-288.png",
+    "area": [
+      596,
+      288,
+      144,
+      144
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-748-288.png",
+    "area": [
+      748,
+      288,
+      32,
+      140
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-20-296.png",
+    "area": [
+      20,
+      296,
+      148,
+      80
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-352-296.png",
+    "area": [
+      352,
+      296,
+      148,
+      176
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-516-296.png",
+    "area": [
+      516,
+      296,
+      68,
+      16
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-188-312.png",
+    "area": [
+      188,
+      312,
+      56,
+      20
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-28-400.png",
+    "area": [
+      28,
+      400,
+      72,
+      28
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-680-444.png",
+    "area": [
+      680,
+      444,
+      161,
+      100
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-144-492.png",
+    "area": [
+      144,
+      492,
+      220,
+      76
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-596-576.png",
+    "area": [
+      596,
+      576,
+      144,
+      144
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-748-576.png",
+    "area": [
+      748,
+      576,
+      32,
+      140
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-12-584.png",
+    "area": [
+      12,
+      584,
+      232,
+      244
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-256-584.png",
+    "area": [
+      256,
+      584,
+      244,
+      224
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-516-584.png",
+    "area": [
+      516,
+      584,
+      68,
+      16
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-680-732.png",
+    "area": [
+      680,
+      732,
+      161,
+      100
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-596-864.png",
+    "area": [
+      596,
+      864,
+      144,
+      144
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-748-864.png",
+    "area": [
+      748,
+      864,
+      32,
+      140
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-20-872.png",
+    "area": [
+      20,
+      872,
+      148,
+      80
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-352-872.png",
+    "area": [
+      352,
+      872,
+      148,
+      124
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-516-872.png",
+    "area": [
+      516,
+      872,
+      68,
+      16
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-188-888.png",
+    "area": [
+      188,
+      888,
+      56,
+      20
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-276-888.png",
+    "area": [
+      276,
+      888,
+      36,
+      16
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-28-976.png",
+    "area": [
+      28,
+      976,
+      72,
+      28
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-412-1008.png",
+    "area": [
+      412,
+      1008,
+      92,
+      80
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-680-1020.png",
+    "area": [
+      680,
+      1020,
+      161,
+      100
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-144-1068.png",
+    "area": [
+      144,
+      1068,
+      220,
+      76
     ]
   }
 ]

@@ -75,6 +75,11 @@ class Patches:
         self.items = []
 
     def add(self, name, img, x, y):
+        # areas are found on a 4px grid: never let a patch reach past the sheet (CP refuses it)
+        s = sheet(self.asset)
+        w, h = min(img.w, s.w - x), min(img.h, s.h - y)
+        if (w, h) != (img.w, img.h):
+            img = img.crop(0, 0, w, h)
         self.items.append((name, img, (x, y, img.w, img.h)))
 
     def save(self):
