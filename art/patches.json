@@ -58,5 +58,1405 @@
       110,
       18
     ]
+  },
+  {
+    "target": "LooseSprites/Billboard",
+    "file": "LooseSprites/Billboard/hulp-gevraagd.png",
+    "area": [
+      90,
+      33,
+      160,
+      26
+    ]
+  },
+  {
+    "target": "LooseSprites/Billboard",
+    "file": "LooseSprites/Billboard/weekdagen.png",
+    "area": [
+      41,
+      233,
+      219,
+      12
+    ]
+  },
+  {
+    "target": "LooseSprites/Billboard",
+    "file": "LooseSprites/Billboard/poster.png",
+    "area": [
+      291,
+      135,
+      36,
+      54
+    ]
+  },
+  {
+    "target": "Maps/spring_town",
+    "file": "Maps/spring_town/sign-256-8.png",
+    "area": [
+      256,
+      8,
+      32,
+      12
+    ]
+  },
+  {
+    "target": "Maps/spring_town",
+    "file": "Maps/spring_town/sign-240-40.png",
+    "area": [
+      240,
+      40,
+      16,
+      16
+    ]
+  },
+  {
+    "target": "Maps/spring_town",
+    "file": "Maps/spring_town/sign-372-184.png",
+    "area": [
+      372,
+      184,
+      12,
+      4
+    ]
+  },
+  {
+    "target": "Maps/spring_town",
+    "file": "Maps/spring_town/sign-276-252.png",
+    "area": [
+      276,
+      252,
+      44,
+      64
+    ]
+  },
+  {
+    "target": "Maps/spring_town",
+    "file": "Maps/spring_town/sign-208-332.png",
+    "area": [
+      208,
+      332,
+      16,
+      4
+    ]
+  },
+  {
+    "target": "Maps/spring_town",
+    "file": "Maps/spring_town/sign-52-904.png",
+    "area": [
+      52,
+      904,
+      88,
+      36
+    ]
+  },
+  {
+    "target": "Maps/spring_town",
+    "file": "Maps/spring_town/sign-372-904.png",
+    "area": [
+      372,
+      904,
+      88,
+      36
+    ]
+  },
+  {
+    "target": "Maps/spring_town",
+    "file": "Maps/spring_town/sign-116-968.png",
+    "area": [
+      116,
+      968,
+      28,
+      20
+    ]
+  },
+  {
+    "target": "Maps/spring_town",
+    "file": "Maps/spring_town/sign-432-968.png",
+    "area": [
+      432,
+      968,
+      32,
+      24
+    ]
+  },
+  {
+    "target": "Maps/spring_town",
+    "file": "Maps/spring_town/sign-192-996.png",
+    "area": [
+      192,
+      996,
+      64,
+      12
+    ]
+  },
+  {
+    "target": "Maps/spring_town",
+    "file": "Maps/spring_town/sign-92-1056.png",
+    "area": [
+      92,
+      1056,
+      88,
+      16
+    ]
+  },
+  {
+    "target": "Maps/spring_beach",
+    "file": "Maps/spring_beach/sign-36-424.png",
+    "area": [
+      36,
+      424,
+      44,
+      20
+    ]
+  },
+  {
+    "target": "Maps/spring_outdoorsTileSheet",
+    "file": "Maps/spring_outdoorsTileSheet/sign-52-976.png",
+    "area": [
+      52,
+      976,
+      40,
+      20
+    ]
+  },
+  {
+    "target": "Maps/summer_town",
+    "file": "Maps/summer_town/sign-256-8.png",
+    "area": [
+      256,
+      8,
+      32,
+      12
+    ]
+  },
+  {
+    "target": "Maps/summer_town",
+    "file": "Maps/summer_town/sign-224-28.png",
+    "area": [
+      224,
+      28,
+      32,
+      28
+    ]
+  },
+  {
+    "target": "Maps/summer_town",
+    "file": "Maps/summer_town/sign-280-256.png",
+    "area": [
+      280,
+      256,
+      40,
+      60
+    ]
+  },
+  {
+    "target": "Maps/summer_town",
+    "file": "Maps/summer_town/sign-208-332.png",
+    "area": [
+      208,
+      332,
+      16,
+      4
+    ]
+  },
+  {
+    "target": "Maps/summer_town",
+    "file": "Maps/summer_town/sign-436-628.png",
+    "area": [
+      436,
+      628,
+      28,
+      8
+    ]
+  },
+  {
+    "target": "Maps/summer_town",
+    "file": "Maps/summer_town/sign-52-904.png",
+    "area": [
+      52,
+      904,
+      88,
+      36
+    ]
+  },
+  {
+    "target": "Maps/summer_town",
+    "file": "Maps/summer_town/sign-372-904.png",
+    "area": [
+      372,
+      904,
+      88,
+      36
+    ]
+  },
+  {
+    "target": "Maps/summer_town",
+    "file": "Maps/summer_town/sign-116-968.png",
+    "area": [
+      116,
+      968,
+      28,
+      20
+    ]
+  },
+  {
+    "target": "Maps/summer_town",
+    "file": "Maps/summer_town/sign-432-968.png",
+    "area": [
+      432,
+      968,
+      32,
+      24
+    ]
+  },
+  {
+    "target": "Maps/summer_town",
+    "file": "Maps/summer_town/sign-192-996.png",
+    "area": [
+      192,
+      996,
+      64,
+      12
+    ]
+  },
+  {
+    "target": "Maps/summer_town",
+    "file": "Maps/summer_town/sign-92-1056.png",
+    "area": [
+      92,
+      1056,
+      88,
+      16
+    ]
+  },
+  {
+    "target": "Maps/summer_beach",
+    "file": "Maps/summer_beach/sign-36-424.png",
+    "area": [
+      36,
+      424,
+      44,
+      20
+    ]
+  },
+  {
+    "target": "Maps/summer_outdoorsTileSheet",
+    "file": "Maps/summer_outdoorsTileSheet/sign-52-976.png",
+    "area": [
+      52,
+      976,
+      40,
+      20
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-256-8.png",
+    "area": [
+      256,
+      8,
+      32,
+      12
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-224-28.png",
+    "area": [
+      224,
+      28,
+      32,
+      28
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-276-252.png",
+    "area": [
+      276,
+      252,
+      44,
+      64
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-208-332.png",
+    "area": [
+      208,
+      332,
+      16,
+      4
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-196-464.png",
+    "area": [
+      196,
+      464,
+      4,
+      8
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-344-464.png",
+    "area": [
+      344,
+      464,
+      4,
+      8
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-52-904.png",
+    "area": [
+      52,
+      904,
+      88,
+      36
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-372-904.png",
+    "area": [
+      372,
+      904,
+      88,
+      36
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-112-960.png",
+    "area": [
+      112,
+      960,
+      32,
+      28
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-432-968.png",
+    "area": [
+      432,
+      968,
+      32,
+      24
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-192-996.png",
+    "area": [
+      192,
+      996,
+      64,
+      12
+    ]
+  },
+  {
+    "target": "Maps/fall_town",
+    "file": "Maps/fall_town/sign-92-1056.png",
+    "area": [
+      92,
+      1056,
+      88,
+      16
+    ]
+  },
+  {
+    "target": "Maps/fall_beach",
+    "file": "Maps/fall_beach/sign-36-424.png",
+    "area": [
+      36,
+      424,
+      44,
+      20
+    ]
+  },
+  {
+    "target": "Maps/fall_outdoorsTileSheet",
+    "file": "Maps/fall_outdoorsTileSheet/sign-52-976.png",
+    "area": [
+      52,
+      976,
+      40,
+      20
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-240-40.png",
+    "area": [
+      240,
+      40,
+      16,
+      16
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-280-252.png",
+    "area": [
+      280,
+      252,
+      40,
+      64
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-208-332.png",
+    "area": [
+      208,
+      332,
+      12,
+      4
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-280-408.png",
+    "area": [
+      280,
+      408,
+      4,
+      4
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-316-716.png",
+    "area": [
+      316,
+      716,
+      60,
+      20
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-460-760.png",
+    "area": [
+      460,
+      760,
+      32,
+      8
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-52-904.png",
+    "area": [
+      52,
+      904,
+      88,
+      36
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-372-904.png",
+    "area": [
+      372,
+      904,
+      88,
+      36
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-116-968.png",
+    "area": [
+      116,
+      968,
+      28,
+      20
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-432-968.png",
+    "area": [
+      432,
+      968,
+      32,
+      24
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-192-996.png",
+    "area": [
+      192,
+      996,
+      64,
+      12
+    ]
+  },
+  {
+    "target": "Maps/winter_town",
+    "file": "Maps/winter_town/sign-92-1056.png",
+    "area": [
+      92,
+      1056,
+      88,
+      16
+    ]
+  },
+  {
+    "target": "Maps/winter_beach",
+    "file": "Maps/winter_beach/sign-36-424.png",
+    "area": [
+      36,
+      424,
+      44,
+      20
+    ]
+  },
+  {
+    "target": "Maps/winter_outdoorsTileSheet",
+    "file": "Maps/winter_outdoorsTileSheet/sign-52-976.png",
+    "area": [
+      52,
+      976,
+      40,
+      20
+    ]
+  },
+  {
+    "target": "Maps/Festivals",
+    "file": "Maps/Festivals/sign-180-64.png",
+    "area": [
+      180,
+      64,
+      40,
+      16
+    ]
+  },
+  {
+    "target": "Maps/Festivals",
+    "file": "Maps/Festivals/sign-372-96.png",
+    "area": [
+      372,
+      96,
+      40,
+      16
+    ]
+  },
+  {
+    "target": "Maps/Festivals",
+    "file": "Maps/Festivals/sign-360-120.png",
+    "area": [
+      360,
+      120,
+      56,
+      52
+    ]
+  },
+  {
+    "target": "Maps/Festivals",
+    "file": "Maps/Festivals/sign-320-148.png",
+    "area": [
+      320,
+      148,
+      32,
+      12
+    ]
+  },
+  {
+    "target": "Maps/Festivals",
+    "file": "Maps/Festivals/sign-352-168.png",
+    "area": [
+      352,
+      168,
+      128,
+      40
+    ]
+  },
+  {
+    "target": "Maps/Festivals",
+    "file": "Maps/Festivals/sign-420-224.png",
+    "area": [
+      420,
+      224,
+      44,
+      16
+    ]
+  },
+  {
+    "target": "Maps/Festivals",
+    "file": "Maps/Festivals/sign-288-244.png",
+    "area": [
+      288,
+      244,
+      48,
+      12
+    ]
+  },
+  {
+    "target": "Maps/Festivals",
+    "file": "Maps/Festivals/sign-480-244.png",
+    "area": [
+      480,
+      244,
+      32,
+      12
+    ]
+  },
+  {
+    "target": "Maps/DesertTiles",
+    "file": "Maps/DesertTiles/sign-36-176.png",
+    "area": [
+      36,
+      176,
+      140,
+      16
+    ]
+  },
+  {
+    "target": "Maps/DesertTiles",
+    "file": "Maps/DesertTiles/sign-36-320.png",
+    "area": [
+      36,
+      320,
+      32,
+      8
+    ]
+  },
+  {
+    "target": "Maps/bathhouse_tiles",
+    "file": "Maps/bathhouse_tiles/sign-148-212.png",
+    "area": [
+      148,
+      212,
+      8,
+      8
+    ]
+  },
+  {
+    "target": "Maps/coopTiles",
+    "file": "Maps/coopTiles/sign-4-308.png",
+    "area": [
+      4,
+      308,
+      56,
+      12
+    ]
+  },
+  {
+    "target": "Minigames/jojacorps",
+    "file": "Minigames/jojacorps/sign-180-60.png",
+    "area": [
+      180,
+      60,
+      92,
+      48
+    ]
+  },
+  {
+    "target": "Minigames/jojacorps",
+    "file": "Minigames/jojacorps/sign-292-608.png",
+    "area": [
+      292,
+      608,
+      116,
+      40
+    ]
+  },
+  {
+    "target": "Minigames/jojacorps",
+    "file": "Minigames/jojacorps/sign-820-616.png",
+    "area": [
+      820,
+      616,
+      112,
+      20
+    ]
+  },
+  {
+    "target": "Minigames/jojacorps",
+    "file": "Minigames/jojacorps/sign-512-744.png",
+    "area": [
+      512,
+      744,
+      44,
+      20
+    ]
+  },
+  {
+    "target": "Minigames/Intro",
+    "file": "Minigames/Intro/sign-52-180.png",
+    "area": [
+      52,
+      180,
+      56,
+      36
+    ]
+  },
+  {
+    "target": "Minigames/Xb1ProfileButton",
+    "file": "Minigames/Xb1ProfileButton/sign-4-196.png",
+    "area": [
+      4,
+      196,
+      64,
+      36
+    ]
+  },
+  {
+    "target": "Minigames/Xb1ProfileButton",
+    "file": "Minigames/Xb1ProfileButton/sign-4-252.png",
+    "area": [
+      4,
+      252,
+      64,
+      36
+    ]
+  },
+  {
+    "target": "LooseSprites/JojaCDForm",
+    "file": "LooseSprites/JojaCDForm/sign-92-4.png",
+    "area": [
+      92,
+      4,
+      216,
+      40
+    ]
+  },
+  {
+    "target": "LooseSprites/JojaCDForm",
+    "file": "LooseSprites/JojaCDForm/sign-4-36.png",
+    "area": [
+      4,
+      36,
+      120,
+      36
+    ]
+  },
+  {
+    "target": "LooseSprites/JojaCDForm",
+    "file": "LooseSprites/JojaCDForm/sign-172-52.png",
+    "area": [
+      172,
+      52,
+      80,
+      52
+    ]
+  },
+  {
+    "target": "LooseSprites/JojaCDForm",
+    "file": "LooseSprites/JojaCDForm/sign-24-88.png",
+    "area": [
+      24,
+      88,
+      48,
+      16
+    ]
+  },
+  {
+    "target": "LooseSprites/JojaCDForm",
+    "file": "LooseSprites/JojaCDForm/sign-20-116.png",
+    "area": [
+      20,
+      116,
+      124,
+      24
+    ]
+  },
+  {
+    "target": "LooseSprites/JojaCDForm",
+    "file": "LooseSprites/JojaCDForm/sign-152-116.png",
+    "area": [
+      152,
+      116,
+      160,
+      28
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-596-0.png",
+    "area": [
+      596,
+      0,
+      144,
+      144
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-748-0.png",
+    "area": [
+      748,
+      0,
+      32,
+      140
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-16-8.png",
+    "area": [
+      16,
+      8,
+      128,
+      164
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-324-8.png",
+    "area": [
+      324,
+      8,
+      172,
+      164
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-516-8.png",
+    "area": [
+      516,
+      8,
+      68,
+      16
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-188-16.png",
+    "area": [
+      188,
+      16,
+      60,
+      20
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-680-156.png",
+    "area": [
+      680,
+      156,
+      164,
+      100
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-160-204.png",
+    "area": [
+      160,
+      204,
+      204,
+      76
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-596-288.png",
+    "area": [
+      596,
+      288,
+      144,
+      144
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-748-288.png",
+    "area": [
+      748,
+      288,
+      32,
+      140
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-20-296.png",
+    "area": [
+      20,
+      296,
+      148,
+      80
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-352-296.png",
+    "area": [
+      352,
+      296,
+      148,
+      176
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-516-296.png",
+    "area": [
+      516,
+      296,
+      68,
+      16
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-188-312.png",
+    "area": [
+      188,
+      312,
+      56,
+      20
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-28-400.png",
+    "area": [
+      28,
+      400,
+      72,
+      28
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-680-444.png",
+    "area": [
+      680,
+      444,
+      164,
+      100
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-144-492.png",
+    "area": [
+      144,
+      492,
+      220,
+      76
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-596-576.png",
+    "area": [
+      596,
+      576,
+      144,
+      144
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-748-576.png",
+    "area": [
+      748,
+      576,
+      32,
+      140
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-12-584.png",
+    "area": [
+      12,
+      584,
+      232,
+      244
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-256-584.png",
+    "area": [
+      256,
+      584,
+      244,
+      224
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-516-584.png",
+    "area": [
+      516,
+      584,
+      68,
+      16
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-680-732.png",
+    "area": [
+      680,
+      732,
+      164,
+      100
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-596-864.png",
+    "area": [
+      596,
+      864,
+      144,
+      144
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-748-864.png",
+    "area": [
+      748,
+      864,
+      32,
+      140
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-20-872.png",
+    "area": [
+      20,
+      872,
+      148,
+      80
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-352-872.png",
+    "area": [
+      352,
+      872,
+      148,
+      124
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-516-872.png",
+    "area": [
+      516,
+      872,
+      68,
+      16
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-188-888.png",
+    "area": [
+      188,
+      888,
+      56,
+      20
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-276-888.png",
+    "area": [
+      276,
+      888,
+      36,
+      16
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-28-976.png",
+    "area": [
+      28,
+      976,
+      72,
+      28
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-412-1008.png",
+    "area": [
+      412,
+      1008,
+      92,
+      80
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-680-1020.png",
+    "area": [
+      680,
+      1020,
+      164,
+      100
+    ]
+  },
+  {
+    "target": "LooseSprites/ControllerMaps",
+    "file": "LooseSprites/ControllerMaps/sign-144-1068.png",
+    "area": [
+      144,
+      1068,
+      220,
+      76
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-276-4.png",
+    "area": [
+      276,
+      4,
+      80,
+      64
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-24-336.png",
+    "area": [
+      24,
+      336,
+      4,
+      4
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-440-384.png",
+    "area": [
+      440,
+      384,
+      68,
+      52
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-204-408.png",
+    "area": [
+      204,
+      408,
+      24,
+      12
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-316-408.png",
+    "area": [
+      316,
+      408,
+      48,
+      12
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-296-428.png",
+    "area": [
+      296,
+      428,
+      20,
+      12
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-184-436.png",
+    "area": [
+      184,
+      436,
+      68,
+      24
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-144-440.png",
+    "area": [
+      144,
+      440,
+      16,
+      12
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-644-1328.png",
+    "area": [
+      644,
+      1328,
+      48,
+      72
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-128-1364.png",
+    "area": [
+      128,
+      1364,
+      128,
+      20
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-24-1368.png",
+    "area": [
+      24,
+      1368,
+      64,
+      24
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-452-1528.png",
+    "area": [
+      452,
+      1528,
+      4,
+      4
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-352-1672.png",
+    "area": [
+      352,
+      1672,
+      76,
+      20
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-608-1728.png",
+    "area": [
+      608,
+      1728,
+      32,
+      32
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-128-1744.png",
+    "area": [
+      128,
+      1744,
+      96,
+      68
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-236-1756.png",
+    "area": [
+      236,
+      1756,
+      40,
+      24
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-576-1792.png",
+    "area": [
+      576,
+      1792,
+      64,
+      32
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-612-1912.png",
+    "area": [
+      612,
+      1912,
+      76,
+      32
+    ]
+  },
+  {
+    "target": "LooseSprites/Cursors",
+    "file": "LooseSprites/Cursors/sign-600-1960.png",
+    "area": [
+      600,
+      1960,
+      48,
+      24
+    ]
+  },
+  {
+    "target": "Maps/townInterior",
+    "file": "Maps/townInterior/sign-368-500.png",
+    "area": [
+      368,
+      500,
+      32,
+      12
+    ]
+  },
+  {
+    "target": "Maps/townInterior",
+    "file": "Maps/townInterior/sign-288-768.png",
+    "area": [
+      288,
+      768,
+      32,
+      16
+    ]
+  },
+  {
+    "target": "Maps/townInterior",
+    "file": "Maps/townInterior/sign-192-944.png",
+    "area": [
+      192,
+      944,
+      32,
+      48
+    ]
+  },
+  {
+    "target": "Maps/townInterior",
+    "file": "Maps/townInterior/sign-12-1008.png",
+    "area": [
+      12,
+      1008,
+      84,
+      24
+    ]
+  },
+  {
+    "target": "LooseSprites/JunimoNote",
+    "file": "LooseSprites/JunimoNote/sign-516-288.png",
+    "area": [
+      516,
+      288,
+      64,
+      16
+    ]
   }
 ]

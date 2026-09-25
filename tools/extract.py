@@ -21,6 +21,7 @@ TEXTURES = [
     "Maps/bathhouse_tiles", "Maps/coopTiles", "Maps/DesertTiles", "Maps/Festivals",
     "Maps/MovieTheaterJoja_TileSheet_international", "Maps/townInterior",
     "Minigames/Intro", "Minigames/jojacorps", "Minigames/TitleButtons", "Minigames/Xb1ProfileButton",
+    "Maps/FishingDerbyTiles", "Maps/samshowtiles", "Maps/springobjects",
 ] + [f"Maps/{s}_{k}" for s in ("spring", "summer", "fall", "winter") for k in ("beach", "outdoorsTileSheet", "town")]
 LOCALE = re.compile(r"\.(" + "|".join(LANGS) + r")$")
 
