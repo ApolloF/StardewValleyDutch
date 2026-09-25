@@ -142,7 +142,7 @@
   "Marlon_DF_2_Name": "Schattenjacht",
   "Marlon_DF_2_Text": "Verzamel {Treasure:Count} {Treasure:LocalizedName} in de Skull Cave.",
   "Marlon_DF_2_Objective": "Verzamel {Treasure:Count} {Treasure:LocalisedName}.",
-  "Marlon_DF_Item_0_LocalizedName": "Omni Geodes",
+  "Marlon_DF_Item_0_LocalizedName": "Omni-geodes",
   "Marlon_DF_Item_1_LocalizedName": "Iridium erts stukken",
   "Marlon_DF_Item_2_LocalizedName": "Prismatische scherven"
 }

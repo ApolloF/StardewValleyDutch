@@ -684,7 +684,7 @@
   "Chat_DartsWin": "{0} heeft een dartspel gewonnen met {1} worpen!",
   "Chat_DartsWinPerfect": "{0} heeft een perfect dartspel gewonnen!",
   "Darts_OffTheIsland": "Niet eens in de buurt...",
-  "Darts_Bull": "Bull!",
+  "Darts_Bull": "Roos!",
   "Darts_Bullseye": "In de roos!",
   "Darts_PointsToGo": "Nog {0} punten",
   "Darts_PointToGo": "Nog {0} punt",
@@ -797,8 +797,8 @@
   "Chat_RaceWinners_Final": "en {0}!",
   "Chat_CalicoStatue_Activated": "Calico standbeeld: {0}",
   "Tomorrow": "Morgen...",
-  "Chat_HardModeSkullCaveActivated": "{0} has removed an ancient magi-seal of protection in the Skull Cavern. Tonight, powerful monsters will ascend from the deep...",
-  "Chat_HardModeSkullCaveDeactivated": "{0} has restored an ancient magi-seal of protection in the Skull Cavern. Tomorrow, it will return to normal...",
+  "Chat_HardModeSkullCaveActivated": "{0} heeft een eeuwenoud magisch zegel in de Schedelgrot verbroken. Vannacht kruipen er machtige monsters uit de diepte omhoog...",
+  "Chat_HardModeSkullCaveDeactivated": "{0} heeft het eeuwenoude magische zegel in de Schedelgrot hersteld. Morgen is alles weer gewoon...",
   "Character_EyeColor.mobile": "Oog\nKleur",
   "Character_HairColor.mobile": "Haar\nKleur",
   "Character_PantsColor.mobile": "Broek\nKleur",
@@ -868,5 +868,5 @@
   "android_storage_migration": "Stardew Valley moet eenmalig een kopie maken van je boerderijen naar een nieuwe locatie voor de 1.5 update van het spel.e `StardewValley` folder and tap 'Use this folder'.",
   "mobile_options_larger_font": "Groter tooltip-lettertype gebruiken",
   "Syncing_cloud_saves": "Cloud opslaan synchroniseren",
-  "Cancel": "Cancel"
+  "Cancel": "Annuleren"
 }

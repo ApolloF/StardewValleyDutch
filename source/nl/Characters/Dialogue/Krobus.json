@@ -1,7 +1,7 @@
 {
-  "SpouseStardrop": "Ik wilde je dit geven als bedankje dat ik hier bij jou mag blijven.",
+  "SpouseStardrop": "Ik wilde je dit geven als bedankje dat ik hier bij jou mag blijven.$h",
   "4_*": "...Ben je anderen zoals ik tegengekomen in de mijnen? Het spijt me als ze je vijandig gezind waren. We hebben geleerd mensen te vrezen... er zijn te veel... onaangename ontmoetingen geweest.#$e#Je hebt toch geen vrienden van me gedood, of wel?",
-  "AcceptBirthdayGift_Positive": "Oh, een geschenk om de dag te herinneren dat ik uit het ei kwam! Dank je!",
+  "AcceptBirthdayGift_Positive": "Oh, een geschenk om de dag te herinneren dat ik uit het ei kwam! Dank je!$h",
   "GreenRain": "De waterstroom was ongewoon sterk vandaag... Wat gebeurt er daarboven?",
   "AcceptBirthdayGift_Negative": "Oh... Is dat wat ze noemen een 'verjaardagscadeau'? ik begrijp mensen niet...$s",
   "AcceptGift_(O)StardropTea": "Is dat sterrendruppelthee? dank je! Met één druppel ruikt mijn kamer de hele dag lekker.",
@@ -22,7 +22,7 @@
   "Mon2": "Weer terug? Dat past in mijn theorie van menselijk gedrag.",
   "Mon6": "'Krobus' betekent 'bruggenbouwer' in onze taal.",
   "Sat": "Op vrijdag zwijg ik als blijk van mijn toewijding aan Yoba.",
-  "Sat4": "Ik zou meer van de buitenwereld willen zien, maar dat is niet veilig voor mij.",
+  "Sat4": "Ik zou meer van de buitenwereld willen zien, maar dat is niet veilig voor mij.$s",
   "Sat8": "Ik zal nooit weten hoe het is om mens te zijn... maar als ik met jou praat, heb ik het gevoel dat ik het een beetje begrijp.",
   "Sun": "...Sorry, ik ben nog steeds een beetje wantrouwig tegenover mensen. Maar mijn winkel is altijd voor je open.",
   "Sun4": "Jij bent niet zoals de andere mensen, of wel?",

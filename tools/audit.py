@@ -19,6 +19,11 @@ from xnb import read_spritefont_chars
 PLACEHOLDER_TEXT = {"beschrijving", "naam", "description", "name", "todo", "tbd", "tekst", "text", "xxx"}
 PH = re.compile(r"\{\d+\}")
 GENDER_OK = re.compile(r"\$\{[^{}]*\}\$")
+TOKEN = re.compile(r"%[a-z]+[a-z0-9_]*")
+# dialogue tokens the game replaces (a Dutch line may use one the English line doesn't)
+KNOWN_TOKENS = {"%adj", "%noun", "%place", "%spouse", "%name", "%farm", "%favorite", "%kid1", "%kid2", "%pet",
+                "%firstnameletter", "%band", "%book", "%rival", "%time", "%year", "%season", "%fork", "%item",
+                "%action", "%secretsanta", "%revealtaste", "%endearment", "%endearmentlower"}
 BRACE = re.compile(r"[{}]")
 
 
@@ -33,6 +38,8 @@ def text_parts(asset, key, value):
         return [parts[i] for i in CARET_ASSETS[asset]]
     if is_script_asset(asset) and is_script(value):
         return script_texts(value)
+    if (is_script_asset(asset) and "/" in value) or value.startswith("!image"):
+        return []    # command script / image reference without text
     out, pos = [], 0
     for a, b, name, _ in hard_atoms(value):
         out.append(value[pos:a]); pos = b
@@ -93,11 +100,14 @@ def audit(edition):
                     na = collections.Counter((n, t) for _, _, n, t in hard_atoms(nv) if n != "placeholder")
                     if ea != na:
                         add("E", "commando's/ID's wijken af van Engels", asset, key, f"en {dict(ea)} nl {dict(na)}")
+            bad_tokens = set(TOKEN.findall(nv)) - set(TOKEN.findall(ev)) - KNOWN_TOKENS
+            if bad_tokens and nv != ev:
+                add("E", "onbekende %token (vertaald of kapot)", asset, key, " ".join(sorted(bad_tokens)))
             for t in nl_text:
                 low = t.strip().lower().rstrip(".")
-                if low in PLACEHOLDER_TEXT and ev.strip().lower().rstrip(".") != low:
+                if low in PLACEHOLDER_TEXT and ev.strip().lower().rstrip(".") not in PLACEHOLDER_TEXT:
                     add("E", "plaatshouder-tekst", asset, key, t)
-            if not joined.strip() and " ".join(en_text).strip():
+            if not joined.strip() and " ".join(en_text).strip() and not PH.search(nv):
                 add("E", "lege tekst", asset, key, ev[:80])
             bad = sorted({c for c in joined if c not in font and c not in "\n\r\t"})
             if bad:
