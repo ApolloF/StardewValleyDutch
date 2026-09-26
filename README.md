@@ -7,12 +7,12 @@ opnieuw vertaald. Ontbrekende en Engelse teksten zijn aangevuld, en het titelsch
 dorp zijn opnieuw getekend in de originele letters van het spel. Wat er precies veranderd is, staat in
 [CHANGELOG.md](CHANGELOG.md).
 
-:warning: De mod is uitvoerig getest, maar er kunnen natuurlijk nog foutjes in zitten. Maak daarom een backup van je savegames voordat je deze mod gaat gebruiken. Mocht je een fout tegenkomen, dan stellen wij het zeer op prijs als je hier een [Issue](https://github.com/janfokke/StardewValleyDutch/issues) voor aanmaakt.
+:warning: De mod is uitvoerig getest, maar er kunnen natuurlijk nog foutjes in zitten. Maak daarom een backup van je savegames voordat je deze mod gaat gebruiken. Mocht je een fout tegenkomen, dan stellen wij het zeer op prijs als je hier een [Issue](https://github.com/ApolloF/StardewValleyDutch/issues) voor aanmaakt.
 
 ![Installation](https://user-images.githubusercontent.com/17224428/111886773-a2a72d00-89d0-11eb-82f1-745288638640.png)
 1. [Installeer de laatste versie van SMAPI.](https://smapi.io/)
 2. [Download Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915) (2.9 of nieuwer) en pak deze uit in Stardew Valley/Mods.
-3. [Download deze mod](https://github.com/janfokke/StardewValleyDutch/releases) en pak deze uit in Stardew Valley/Mods.
+3. [Download deze mod](https://github.com/ApolloF/StardewValleyDutch/releases) en pak deze uit in Stardew Valley/Mods.
    Heb je een oudere versie (1.x)? Verwijder die map dan eerst.
 4. Start het spel met SMAPI.
 5. Verander de taal naar Nederlands op pagina 2 van de taalkeuze!
@@ -44,3 +44,4 @@ Na een spelupdate: `extract.py`, dan `audit.py`. Die laat zien welke teksten nie
 Originele vertaling door **Spawk** met technische ondersteuning van **JanFokke**
 Mobiele V1.5 vertaling door **rhansenne**
 Geupdated voor 1.6 door **Azelion**
+Versie 2.0 (herbouw) door **ApolloF**

@@ -133,11 +133,11 @@ def build(edition, install=False):
     save_json(os.path.join(out, "content.json"), {"Format": "2.9.0", "Changes": changes})
     save_json(os.path.join(out, "manifest.json"), {
         "Name": "Stardew Valley Nederlands" + (" (Klassiek)" if edition == "classic" else ""),
-        "Author": "Spawk en JanFokke, bijgewerkt door rhansenne en Azelion",
+        "Author": "Spawk en JanFokke, bijgewerkt door rhansenne, Azelion en ApolloF",
         "Version": VERSION,
         "Description": ed["desc"],
         "UniqueID": UNIQUE_ID,
-        "UpdateKeys": ["GitHub:janfokke/StardewValleyDutch", "Nexus:24290"],
+        "UpdateKeys": ["GitHub:ApolloF/StardewValleyDutch"],
         "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher", "MinimumVersion": "2.9.0"},
     })
     n_entries = sum(len(p.get("Entries") or p.get("Fields") or {}) for ps in groups.values() for p in ps)

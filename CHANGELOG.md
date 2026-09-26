@@ -34,6 +34,8 @@ Controleronde: voorwerpnamen overal gelijk, en fouten buiten de voorwerpbestande
 - *IJspieperkuit* en *IJssandwich* met een hoofdletter-IJ.
 
 ### Techniek
+- Nieuwe versies verschijnen voortaan op [github.com/ApolloF/StardewValleyDutch](https://github.com/ApolloF/StardewValleyDutch/releases);
+  SMAPI meldt updates vanaf daar.
 - `tools/audit.py` meldt nu ook keuzevragen met een verkeerd aantal antwoorden en `{tokens}` die
   het spel niet kent.
 - Woordenlijst en stijlgids aangevuld.
