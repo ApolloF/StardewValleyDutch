@@ -11,7 +11,7 @@ VANILLA = os.path.join(ROOT, "vanilla")          # extracted game data (gitignor
 SOURCE = os.path.join(ROOT, "source")            # Dutch text sources
 ART = os.path.join(ROOT, "art")                  # glyphs and image patches
 BUILD = os.path.join(ROOT, "build")              # generated mod folders (gitignored)
-LEGACY = os.path.join(ROOT, "StardewValleyDutch", "assets")  # upstream mod assets
+LEGACY = os.path.join(ROOT, "legacy")            # assets of the old mod (1.6.18), source for migrate/parity/art previews
 
 LANGS = ["de-DE", "es-ES", "fr-FR", "hu-HU", "it-IT", "ja-JP", "ko-KR", "pt-BR", "ru-RU", "tr-TR", "zh-CN"]
 LATIN_LANGS = ["de-DE", "es-ES", "fr-FR", "hu-HU", "it-IT", "pt-BR", "tr-TR"]

@@ -33,6 +33,7 @@ De mod wordt gebouwd uit bronbestanden met een paar Python-scripts (alleen de st
 | `source/polish/` | de herschreven voorwerpnamen en -beschrijvingen (gaan boven `source/nl/`) |
 | `source/glossary.json`, `docs/stijlgids.md` | woordenlijst en stijlgids |
 | `art/` | de opnieuw getekende tekstvlakken |
+| `legacy/` | de oude vertaling (1.6.18), alleen als bron voor de tools |
 | `tools/extract.py` | haalt de Engelse en officieel vertaalde spelbestanden uit de installatie (`vanilla/`) |
 | `tools/build.py polished [--install]` | bouwt de mod naar `build/` (en installeert hem in Mods) |
 | `tools/audit.py polished` | controleert alle teksten; voor een release moeten er 0 fouten zijn |
