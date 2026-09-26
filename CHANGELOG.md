@@ -1,5 +1,43 @@
 # Wijzigingen
 
+## 2.0.1
+Controleronde: voorwerpnamen overal gelijk, en fouten buiten de voorwerpbestanden gerepareerd.
+
+### Gerepareerd
+- Keuzevragen waarvan de antwoorden kapot waren: Demetrius (grotexperiment), Pam (IJsfestival),
+  Penny (Winterster) en Caroline (nieuwe keuken).
+- Marlons opdrachten op het Woestijnfestival toonden `{Monster:LocalisedName}` in plaats van de
+  naam van het monster, en de beschrijving noemde 12 in plaats van 10 monsters.
+- Foute informatie: de eiland-obelisk bracht je naar "Ingerwinsel", het Avonturiersgilde was
+  open "tot 22:00" (moet 2:00 zijn), de superkomkommer zwom "in de zomer en winter" (moet herfst
+  zijn), en bij de rivierboerderij ontbrak dat je met een visroker begint.
+- Verkeerde namen: de waterput heette "Fontein", bij het verven van gebouwen stond twee keer
+  "Dak", "Duits" heette "Nederlands" en de iridiumgolem heette "Wildness Golem".
+- Engelse restjes en typfouten, zoals "Harvest an egg from your chickens", "Perfecte Ice Wand",
+  "idiriumstaven", "verbanenn", "de de" en "om om". Vier puntjes ("....") zijn nu overal drie.
+- Marnie en Willy wisselden in één gesprek tussen "u" en "je".
+
+### Opgepoetst
+- Een voorwerp heet in dialogen, brieven, quests en tv-programma's nu precies zoals het voorwerp
+  zelf. Het Galaxyzwaard heette bij het vinden nog "melkwegzwaard". Andere voorbeelden:
+  *Krabkooi*, *Gouden penning*, *Gouden dobber*, *Kruidenbes*, *Grottenwortel*, *Geheim briefje*,
+  *Calico-beeld*, *Magische pijlkoker*, *Kevervlees*, en de recepten van De Sauskoningin.
+- Overal *Stardrop Saloon* (niet meer "Stardew Saloon" of "Sterrendruppel Saloon") en
+  *Forellenderby*.
+- Lijsten die nog niet waren opgepoetst: gebouwen (*Woestijnobelisk*, *Aarde-obelisk*),
+  bioscoopsnacks (*Boerenkoolsmoothie*, *Toverbal*), bundels (alle namen eindigen nu op "bundel"),
+  prestaties, betoveringen en monsters.
+- Woestijnfestival: de quizvragen lopen weer goed, en de chef, de wasbeer, de cactusman en de
+  wedstrijdleider staan weer steeds met hun naam voor hun tekst. Hetzelfde geldt voor de vissers
+  op de Forellenderby.
+- Bezittelijke vorm volgens de stijlgids: *Emily's*, *Penny's*, *Willy's*, *Harvey's*.
+- *IJspieperkuit* en *IJssandwich* met een hoofdletter-IJ.
+
+### Techniek
+- `tools/audit.py` meldt nu ook keuzevragen met een verkeerd aantal antwoorden en `{tokens}` die
+  het spel niet kent.
+- Woordenlijst en stijlgids aangevuld.
+
 ## 2.0.0
 Complete herbouw voor Stardew Valley 1.6.15.
 

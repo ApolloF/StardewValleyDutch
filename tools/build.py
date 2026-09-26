@@ -14,7 +14,7 @@ import sys
 from paths import SOURCE, BUILD, ART, MODS, load_json, save_json, vanilla
 from textfmt import FIELD_ASSETS, CARET_ASSETS, LIST_ASSETS
 
-VERSION = "2.0.0"
+VERSION = "2.0.1"
 UNIQUE_ID = "JanFokke.StardewValleyDutch"      # unchanged: keeps the language setting and replaces the old mod
 EDITIONS = {
     "polished": {"folder": "[CP] Stardew Valley Nederlands", "layers": ["nl", "polish"],

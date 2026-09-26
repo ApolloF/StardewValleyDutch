@@ -73,6 +73,9 @@ def compound(stem, suffix):
 
 
 def cap(s):
+    """First letter upper case; the Dutch digraph ij becomes IJ (IJspieperkuit)."""
+    if s[:2] == "ij":
+        return "IJ" + s[2:]
     return s[0].upper() + s[1:]
 
 

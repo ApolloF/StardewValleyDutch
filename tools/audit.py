@@ -25,6 +25,7 @@ KNOWN_TOKENS = {"%adj", "%noun", "%place", "%spouse", "%name", "%farm", "%favori
                 "%firstnameletter", "%band", "%book", "%rival", "%time", "%year", "%season", "%fork", "%item",
                 "%action", "%secretsanta", "%revealtaste", "%endearment", "%endearmentlower"}
 BRACE = re.compile(r"[{}]")
+NAMED = re.compile(r"\{[A-Za-z_]+(?::[A-Za-z_]+)?\}")    # special order tokens: {Greeting}, {Monster:LocalizedName}
 # words a Dutch sentence can't end on; a text ending on one where the English ends properly was cut off
 DANGLING = {"de", "het", "een", "van", "voor", "met", "naar", "om", "te", "aan", "bij", "en", "of", "maar", "dat",
             "die", "dit", "deze", "jou", "zijn", "hun", "dezelfde", "als", "wanneer", "door", "tot", "wordt", "zal",
@@ -121,6 +122,11 @@ def audit(edition):
                     na = collections.Counter((n, t) for _, _, n, t in hard_atoms(nv) if n != "placeholder")
                     if ea != na:
                         add("E", "commando's/ID's wijken af van Engels", asset, key, f"en {dict(ea)} nl {dict(na)}")
+            bad_named = set(NAMED.findall(nv)) - set(NAMED.findall(ev))
+            if bad_named:
+                add("E", "onbekend {token} (het spel vult het niet in)", asset, key, " ".join(sorted(bad_named)))
+            if "$y '" in ev and ev.count("_") != nv.count("_"):
+                add("E", "keuzevraag ($y): aantal antwoorden wijkt af", asset, key, f"en {ev.count('_')} nl {nv.count('_')}")
             bad_tokens = set(TOKEN.findall(nv)) - set(TOKEN.findall(ev)) - KNOWN_TOKENS
             if bad_tokens and nv != ev:
                 add("E", "onbekende %token (vertaald of kapot)", asset, key, " ".join(sorted(bad_tokens)))

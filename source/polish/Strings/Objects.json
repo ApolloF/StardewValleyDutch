@@ -1229,9 +1229,9 @@
   "AgedRoe_Flavored_(O)160_Name": "Gerijpte Zeeduivelkuit",
   "SpecificBait_Flavored_(O)160_Name": "Zeeduivelaas",
   "SmokedFish_Flavored_(O)160_Name": "Gerookte Zeeduivel",
-  "Roe_Flavored_(O)161_Name": "Ijspieperkuit",
+  "Roe_Flavored_(O)161_Name": "IJspieperkuit",
   "AgedRoe_Flavored_(O)161_Name": "Gerijpte ijspieperkuit",
-  "SpecificBait_Flavored_(O)161_Name": "Ijspieperaas",
+  "SpecificBait_Flavored_(O)161_Name": "IJspieperaas",
   "SmokedFish_Flavored_(O)161_Name": "Gerookte ijspieper",
   "Roe_Flavored_(O)162_Name": "Lavapalingkuit",
   "AgedRoe_Flavored_(O)162_Name": "Gerijpte lavapalingkuit",
@@ -1408,5 +1408,7 @@
   "DriedFruit_Flavored_Name": "Gedroogde {1}",
   "AgedRoe_Flavored_Name": "Gerijpte kuit van {1}",
   "SmokedFish_Flavored_Name": "Gerookte {1}",
-  "Jelly_Name": "Jam"
+  "Jelly_Name": "Jam",
+  "PlumPudding_Name": "Plumpudding",
+  "MagnifyingGlassDescription": "Je hebt het {0} gekregen! Je kunt nu geheime briefjes vinden. Deze briefjes onthullen zeldzame en nuttige informatie. Je kunt ze bekijken in het tabblad 'collecties'."
 }

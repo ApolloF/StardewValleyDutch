@@ -45,6 +45,8 @@ Kort, warm, eenvoudig. Een knipoog alleen waar het Engels er ook een maakt.
 | Pelican Town, Stardew Valley, Ginger Island, Zuzu City | blijven Engels (eigennaam) |
 | Calico Desert | Calico-woestijn |
 | Calico Egg(s) | Calico-ei (Calico-eieren) |
+| Calico Statue | Calico-beeld |
+| Stardrop Saloon | blijft Engels (eigennaam) |
 | Skull Cavern | Schedelgrot |
 | Community Center | Buurthuis |
 | Adventurer's Guild | Avonturiersgilde |
@@ -58,6 +60,9 @@ Kort, warm, eenvoudig. Een knipoog alleen waar het Engels er ook een maakt.
 | Crimsonfish | Karmozijnvis |
 | Journey of the Prairie King | Reis van de Prairiekoning |
 | Trout Derby | Forellenderby |
+| Golden Tag | Gouden penning |
+| Crab Pot | Krabkooi |
+| Secret Note | Geheim briefje |
 | Trinket | Ornament |
 | Speed-Gro | Snel-Groei |
 | Jelly (artisanaal) | Jam |
@@ -69,4 +74,6 @@ Kort, warm, eenvoudig. Een knipoog alleen waar het Engels er ook een maakt.
 - Tokens: `@`, `%adj`, `{0}`, `[LocalizedText …]`, `%item … %%`, `$h`, `$s`, `#$b#`, `#$e#`, `^`.
 - Geslachtswissel: `${hij^zij}$` met dollartekens aan beide kanten.
 - Portretcodes (`$h`, `$s`, …) staan aan het eind van dezelfde pagina als in het Engels.
+- Keuzevragen (`$y 'vraag_antwoord_reactie_…'`) houden precies evenveel `_` als het Engels.
+- Een voorwerp heet in dialogen, brieven, quests en tv-programma's precies zoals in zijn naam.
 - Draai altijd `tools/audit.py`; nul fouten voor een release.

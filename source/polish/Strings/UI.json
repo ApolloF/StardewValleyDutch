@@ -1,3 +1,16 @@
 {
-  "android_storage_migration": "Stardew Valley moet voor de 1.5-update van het spel eenmalig een kopie van je boerderijen naar een nieuwe locatie maken.\n\nKies in het volgende scherm de map `StardewValley` en tik op 'Deze map gebruiken'."
+  "android_storage_migration": "Stardew Valley moet voor de 1.5-update van het spel eenmalig een kopie van je boerderijen naar een nieuwe locatie maken.\n\nKies in het volgende scherm de map `StardewValley` en tik op 'Deze map gebruiken'.",
+  "Chat_GalaxySword": "{0} heeft het Galaxyzwaard gevonden.",
+  "Chat_CalicoStatue_Activated": "Calico-beeld: {0}",
+  "LevelUp_ProfessionDescription_Trapper": "Minder bouwmiddelen nodig om krabkooien te maken.",
+  "LevelUp_ProfessionDescription_Mariner": "Krabkooien vangen geen afval meer.",
+  "LevelUp_ProfessionDescription_Luremaster": "Krabkooien hebben geen aas meer nodig.",
+  "Collections_SecretNotes": "Geheime briefjes",
+  "Forge_shards": "Sintelscherven worden bij het smeden automatisch opgebruikt.",
+  "Forge_notenoughshards": "Niet genoeg sintelscherven...",
+  "Chat_UpgradePerch_Obelisk": "{0} heeft de papegaaien gevraagd een 'boerderij-obelisk' te bouwen!",
+  "UpgradePerch_Obelisk": "*Kras*... {0} walnoten! *Kras*... Obelisk bouwen!",
+  "PT_Obelisks": "Obelisken op boerderij",
+  "ItemHover_CritChanceBonus": "+{0} voltrefferkans",
+  "ItemHover_CritPowerBonus": "+{0} voltrefferkracht"
 }

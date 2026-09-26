@@ -10,7 +10,9 @@
     {"en": ["Prismatic Shard"], "nl": ["Prismatische scherf"], "avoid": ["Prismatic Shard"]},
     {"en": ["Fern Islands"], "nl": ["Vareneilanden"], "avoid": ["Fern Islands", "Verre Eilanden"]},
     {"en": ["Gem Sea"], "nl": ["Edelstenenzee"], "avoid": ["Gemstone Sea", "Gem Sea"]},
-    {"en": ["Crimsonfish"], "nl": ["Karmozijnvis"], "avoid": ["Roodvis", "rode soldatenvis", "Rode soldatenvis", "Karmijnvis"]},
-    {"en": ["Joja Cola"], "nl": ["Joja Cola"], "avoid": ["Joja cola", "Joja-Cola"]}
+    {"en": ["Crimsonfish"], "nl": ["Karmozijnvis"], "avoid": ["Roodvis", "rode soldatenvis", "Rode soldatenvis", "Karmijnvis", "Krimsonvis"]},
+    {"en": ["Joja Cola"], "nl": ["Joja Cola"], "avoid": ["Joja cola", "Joja-Cola"]},
+    {"en": ["Stardrop Saloon"], "nl": ["Stardrop Saloon"], "avoid": ["Stardew Saloon", "Sterrendruppel Saloon"]},
+    {"en": ["Trout Derby"], "nl": ["Forellenderby"], "avoid": ["Forelderby", "forelderby"]}
   ]
 }
