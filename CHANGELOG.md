@@ -1,5 +1,13 @@
 # Wijzigingen
 
+## 2.0.2
+Nieuwe naam: **Stardew Valley Nederlands 2.0**. Geen wijzigingen in de vertaling.
+
+- De mod heet in SMAPI nu *Stardew Valley Nederlands 2.0*. De map, de UniqueID en de updatemeldingen
+  blijven gelijk, dus je kunt gewoon over de oude versie heen installeren.
+- Nieuwe banner met de nieuwe naam, in dezelfde stijl als de oude.
+- De README zegt erbij dat dit een onofficiële fanvertaling is, niet verbonden aan ConcernedApe.
+
 ## 2.0.1
 Controleronde: voorwerpnamen overal gelijk, en fouten buiten de voorwerpbestanden gerepareerd.
 
