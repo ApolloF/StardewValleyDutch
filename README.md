@@ -1,6 +1,9 @@
 ![banner](https://user-images.githubusercontent.com/17224428/111884012-10e2f400-89bf-11eb-9d65-3b0d1e0a78e0.png)
 
-Deze repository bevat de Nederlandse vertaling voor Stardew Valley (1.6.15).
+# Stardew Valley Nederlands 2.0
+
+**Stardew Valley Nederlands 2.0** is de complete Nederlandse vertaling van Stardew Valley (1.6.15),
+als mod voor SMAPI en Content Patcher.
 
 Versie 2.0 is een complete herbouw. Alle teksten zijn nagelopen en alle voorwerpnamen en -beschrijvingen
 opnieuw vertaald. Ontbrekende en Engelse teksten zijn aangevuld, en het titelscherm en de bordjes in het
@@ -44,5 +47,5 @@ Na een spelupdate: `extract.py`, dan `audit.py`. Die laat zien welke teksten nie
 # Credits
 Originele vertaling door **Spawk** met technische ondersteuning van **JanFokke**
 Mobiele V1.5 vertaling door **rhansenne**
-Geupdated voor 1.6 door **Azelion**
+Geupdated voor 1.6 door **Azelion** ([Nexus Mods](https://www.nexusmods.com/stardewvalley/mods/24290))
 Versie 2.0 (herbouw) door **ApolloF**

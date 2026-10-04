@@ -16,11 +16,12 @@ from textfmt import FIELD_ASSETS, CARET_ASSETS, LIST_ASSETS
 
 VERSION = "2.0.1"
 UNIQUE_ID = "JanFokke.StardewValleyDutch"      # unchanged: keeps the language setting and replaces the old mod
+MOD_NAME = "Stardew Valley Nederlands 2.0"     # display name only; folders and UniqueID stay the same for existing installs
 EDITIONS = {
     "polished": {"folder": "[CP] Stardew Valley Nederlands", "layers": ["nl", "polish"],
-                 "desc": "Nederlandse vertaling van Stardew Valley, volledig opgepoetst."},
+                 "desc": "Stardew Valley Nederlands 2.0: complete Nederlandse vertaling van Stardew Valley 1.6, volledig opgepoetst."},
     "classic": {"folder": "[CP] Stardew Valley Nederlands (Klassiek)", "layers": ["nl"],
-                "desc": "Nederlandse vertaling van Stardew Valley: de bekende vertaling, aangevuld en gerepareerd."},
+                "desc": "Stardew Valley Nederlands 2.0 (Klassiek): de bekende vertaling, aangevuld en gerepareerd."},
 }
 GROUPS = [("Characters/Dialogue/", "Dialogen"), ("Strings/schedules/", "Dialogen"), ("Data/Events/", "Gebeurtenissen"),
           ("Data/Festivals/", "Festivals"), ("Strings/", "Teksten"), ("Data/", "Gegevens")]
@@ -132,7 +133,7 @@ def build(edition, install=False):
 
     save_json(os.path.join(out, "content.json"), {"Format": "2.9.0", "Changes": changes})
     save_json(os.path.join(out, "manifest.json"), {
-        "Name": "Stardew Valley Nederlands" + (" (Klassiek)" if edition == "classic" else ""),
+        "Name": MOD_NAME + (" (Klassiek)" if edition == "classic" else ""),
         "Author": "Spawk en JanFokke, bijgewerkt door rhansenne, Azelion en ApolloF",
         "Version": VERSION,
         "Description": ed["desc"],
