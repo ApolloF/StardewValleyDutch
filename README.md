@@ -1,9 +1,12 @@
-![banner](https://user-images.githubusercontent.com/17224428/111884012-10e2f400-89bf-11eb-9d65-3b0d1e0a78e0.png)
+![Stardew Valley Nederlands](art/banner-nederlands.png)
 
 # Stardew Valley Nederlands 2.0
 
 **Stardew Valley Nederlands 2.0** is de complete Nederlandse vertaling van Stardew Valley (1.6.15),
 als mod voor SMAPI en Content Patcher.
+
+Onofficiële fanvertaling; niet verbonden aan ConcernedApe. Stardew Valley is een handelsmerk van ConcernedApe.
+*Unofficial fan translation, not affiliated with ConcernedApe.*
 
 Versie 2.0 is een complete herbouw. Alle teksten zijn nagelopen en alle voorwerpnamen en -beschrijvingen
 opnieuw vertaald. Ontbrekende en Engelse teksten zijn aangevuld, en het titelscherm en de bordjes in het
@@ -40,6 +43,7 @@ De mod wordt gebouwd uit bronbestanden met een paar Python-scripts (alleen de st
 | `tools/extract.py` | haalt de Engelse en officieel vertaalde spelbestanden uit de installatie (`vanilla/`) |
 | `tools/build.py polished [--install]` | bouwt de mod naar `build/` (en installeert hem in Mods) |
 | `tools/audit.py polished` | controleert alle teksten; voor een release moeten er 0 fouten zijn |
+| `tools/banner.py` | maakt de banner (`art/banner-nederlands.png`) uit de letters van de oude banner |
 | `tools/flavored.py` | maakt de namen van wijn, jam, sap, honing, kuit enz. per ingrediënt |
 
 Na een spelupdate: `extract.py`, dan `audit.py`. Die laat zien welke teksten nieuw of veranderd zijn.
